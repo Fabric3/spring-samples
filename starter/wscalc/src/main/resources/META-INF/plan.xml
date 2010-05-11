@@ -3,6 +3,6 @@
       xmlns:ns="urn:fabric3.org:samples"
       name="WsCalcPlan">
     <mappings>
-        <mapping deployable="ns:WsCalculatorComposite" zone="zone1"/>
+        <mapping deployable="ns:WsSpringCalculatorComposite" zone="zone1"/>
     </mappings>
 </plan>
