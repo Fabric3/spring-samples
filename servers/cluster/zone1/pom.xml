@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ See the NOTICE file distributed with this work for information
+ regarding copyright ownership.  This file is licensed
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+-->
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+       <groupId>org.codehaus.fabric3.samples</groupId>
+       <artifactId>servers-spring-cluster-parent-pom</artifactId>
+       <version>1.6-SNAPSHOT</version>
+    </parent>
+    <groupId>org.codehaus.fabric3.samples</groupId>
+    <artifactId>servers-spring-zone1</artifactId>
+    <packaging>pom</packaging>
+    <name>Fabric3 Spring Zone1 Setup</name>
+    <description>Fabric3 Zone1 Setup.</description>
+
+      <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.fabric3</groupId>
+                <artifactId>fabric3-assembly-plugin</artifactId>
+                <version>${fabric3.version}</version>
+                <executions>
+                    <execution>
+                        <id>fabric3-assembly</id>
+                        <goals>
+                            <goal>fabric3-assembly</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <runtimeVersion>${fabric3.version}</runtimeVersion>
+                    <profiles>
+                        <!-- JPA support -->
+                        <profile>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>profile-jpa</artifactId>
+                            <version>${fabric3.version}</version>
+                        </profile>
+                        <!-- Web Services support -->
+                        <profile>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>profile-ws</artifactId>
+                            <version>${fabric3.version}</version>
+                        </profile>
+                        <!-- Web App support -->
+                        <profile>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>profile-web</artifactId>
+                            <version>${fabric3.version}</version>
+                        </profile>
+                        <!-- JMS support -->
+                        <profile>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>profile-jms</artifactId>
+                            <version>${fabric3.version}</version>
+                        </profile>
+                        <!-- JAX-RS support -->
+                        <profile>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>profile-rs</artifactId>
+                            <version>${fabric3.version}</version>
+                        </profile>
+                        <!-- HTTP and TCP binding support 
+                        <profile>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>profile-net</artifactId>
+                            <version>${fabric3.version}</version>
+                        </profile> -->
+                    </profiles>
+                    <!-- overlay configuration -->
+                    <configurationFiles>
+                        <copy>
+                            <source>../../../../config/security.xml</source>
+                            <destination>config</destination>
+                        </copy>
+                        <copy>
+                            <source>../../../../datasource/h2-1.0.71.jar</source>
+                            <destination>repository/datasource</destination>
+                        </copy>
+                        <copy>
+                            <source>config/systemConfig.xml</source>
+                            <destination>config/participant</destination>
+                        </copy>
+                     </configurationFiles> 
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

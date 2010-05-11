@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project relativePaths="true" version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
+  <component name="BuildJarProjectSettings">
+    <option name="BUILD_JARS_ON_MAKE" value="false" />
+  </component>
+  <component name="CodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS" />
+    <option name="USE_PER_PROJECT_SETTINGS" value="false" />
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <option name="DEPLOY_AFTER_MAKE" value="0" />
+    <resourceExtensions>
+      <entry name=".+\.(properties|xml|html|dtd|tld)" />
+      <entry name=".+\.(gif|png|jpeg|jpg)" />
+    </resourceExtensions>
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+    </wildcardResourcePatterns>
+  </component>
+  <component name="CopyrightManager" default="">
+    <module2copyright />
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="EclipseCompilerSettings">
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+    <option name="DEPRECATION" value="false" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+    <option name="MAXIMUM_HEAP_SIZE" value="128" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="InspectionProjectProfileManager">
+    <option name="PROJECT_PROFILE" value="Project Default" />
+    <option name="USE_PROJECT_LEVEL_SETTINGS" value="false" />
+    <scopes />
+    <profiles>
+      <profile version="1.0" is_locked="false">
+        <option name="myName" value="Project Default" />
+        <option name="myLocal" value="false" />
+        <inspection_tool class="NonSerializableWithSerialVersionUIDField" level="WARNING" enabled="true" />
+        <inspection_tool class="SerializableHasSerialVersionUIDField" level="WARNING" enabled="true">
+          <option name="superClassString" value="java.awt.Component" />
+        </inspection_tool>
+        <inspection_tool class="SerializableInnerClassHasSerialVersionUIDField" level="WARNING" enabled="true">
+          <option name="superClassString" value="java.awt.Component" />
+        </inspection_tool>
+        <inspection_tool class="SerialVersionUIDNotStaticFinal" level="WARNING" enabled="true" />
+        <inspection_tool class="JpaDataSourceORMInspection" level="ERROR" enabled="false" />
+        <inspection_tool class="ValidExternallyBoundObject" level="ERROR" enabled="false" />
+        <inspection_tool class="JavaDoc" level="WARNING" enabled="true">
+          <option name="TOP_LEVEL_CLASS_OPTIONS">
+            <value>
+              <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+              <option name="REQUIRED_TAGS" value="" />
+            </value>
+          </option>
+          <option name="INNER_CLASS_OPTIONS">
+            <value>
+              <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+              <option name="REQUIRED_TAGS" value="" />
+            </value>
+          </option>
+          <option name="METHOD_OPTIONS">
+            <value>
+              <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+              <option name="REQUIRED_TAGS" value="@return@param@throws or @exception" />
+            </value>
+          </option>
+          <option name="FIELD_OPTIONS">
+            <value>
+              <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+              <option name="REQUIRED_TAGS" value="" />
+            </value>
+          </option>
+          <option name="IGNORE_DEPRECATED" value="false" />
+          <option name="IGNORE_JAVADOC_PERIOD" value="true" />
+          <option name="myAdditionalJavadocTags" value="Revision" />
+        </inspection_tool>
+      </profile>
+    </profiles>
+    <list size="0" />
+  </component>
+  <component name="JavacSettings">
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="DEPRECATION" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+    <option name="MAXIMUM_HEAP_SIZE" value="128" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="JikesSettings">
+    <option name="JIKES_PATH" value="" />
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="DEPRECATION" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="IS_EMACS_ERRORS_MODE" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/apps/bigbank/bigbank-loan/pom.xml" />
+        <option value="$PROJECT_DIR$/apps/bigbank/bigbank-api/pom.xml" />
+        <option value="$PROJECT_DIR$/apps/bigbank/bigbank-services/pom.xml" />
+        <option value="$PROJECT_DIR$/apps/bigbank/pom.xml" />
+        <option value="$PROJECT_DIR$/apps/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/servers/cluster/controller/pom.xml" />
+        <option value="$PROJECT_DIR$/servers/cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/servers/cluster/zone1/pom.xml" />
+        <option value="$PROJECT_DIR$/servers/cluster/zone2/pom.xml" />
+        <option value="$PROJECT_DIR$/servers/pom.xml" />
+        <option value="$PROJECT_DIR$/servers/vm/pom.xml" />
+        <option value="$PROJECT_DIR$/starter/restcalc/pom.xml" />
+        <option value="$PROJECT_DIR$/starter/wscalc/pom.xml" />
+        <option value="$PROJECT_DIR$/starter/pom.xml" />
+        <option value="$PROJECT_DIR$/starter/wscalc-client/pom.xml" />
+        <option value="$PROJECT_DIR$/policy/counter/pom.xml" />
+        <option value="$PROJECT_DIR$/policy/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectDetails">
+    <option name="projectName" value="fabric3-samples" />
+  </component>
+  <component name="ProjectFileVersion" converted="true" />
+  <component name="ProjectKey">
+    <option name="state" value="project:///Users/jim/workspace/fabric3/codehaus/fabric3/samples-spring/trunk/fabric3-samples-spring.ipr" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-api/bigbank-api.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-api/bigbank-api.iml" group="bigbank" />
+      <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-client/bigbank-client.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-client/bigbank-client.iml" group="bigbank" />
+      <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-loan/bigbank-loan.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/bigbank-loan.iml" group="bigbank" />
+      <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-services/bigbank-services.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-services/bigbank-services.iml" group="bigbank" />
+      <module fileurl="file://$PROJECT_DIR$/starter/wscalc/fabric3-samples-wscalc.iml" filepath="$PROJECT_DIR$/starter/wscalc/fabric3-samples-wscalc.iml" group="starter" />
+      <module fileurl="file://$PROJECT_DIR$/starter/wscalc-client/fabric3-samples-wscalc-client.iml" filepath="$PROJECT_DIR$/starter/wscalc-client/fabric3-samples-wscalc-client.iml" group="starter" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="RmicSettings">
+    <option name="IS_EANABLED" value="false" />
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="GENERATE_IIOP_STUBS" value="false" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="svn" />
+  </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
+  <component name="libraryTable">
+    <library name="Maven: org.codehaus.fabric3.spec:sca-api:1.1">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/spec/sca-api/1.1/sca-api-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/spec/sca-api/1.1/sca-api-1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/spec/sca-api/1.1/sca-api-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.xml.bind:jaxb-api-osgi:2.2-promoted-b50">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/javax/xml/bind/jaxb-api-osgi/2.2-promoted-b50/jaxb-api-osgi-2.2-promoted-b50.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/javax/xml/bind/jaxb-api-osgi/2.2-promoted-b50/jaxb-api-osgi-2.2-promoted-b50-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/javax/xml/bind/jaxb-api-osgi/2.2-promoted-b50/jaxb-api-osgi-2.2-promoted-b50-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.xml:webservices-api-osgi:2.0-b24">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/javax/xml/webservices-api-osgi/2.0-b24/webservices-api-osgi-2.0-b24.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/javax/xml/webservices-api-osgi/2.0-b24/webservices-api-osgi-2.0-b24-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/javax/xml/webservices-api-osgi/2.0-b24/webservices-api-osgi-2.0-b24-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: junit:junit:3.8.2">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/junit/junit/3.8.2/junit-3.8.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/junit/junit/3.8.2/junit-3.8.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/junit/junit/3.8.2/junit-3.8.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.persistence:persistence-api:1.0">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/javax/persistence/persistence-api/1.0/persistence-api-1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.ws.rs:jsr311-api:1.0">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/javax/ws/rs/jsr311-api/1.0/jsr311-api-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/javax/ws/rs/jsr311-api/1.0/jsr311-api-1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/javax/ws/rs/jsr311-api/1.0/jsr311-api-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.fabric3:fabric3-api:1.5">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-api/1.5/fabric3-api-1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-api/1.5/fabric3-api-1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-api/1.5/fabric3-api-1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.servlet:servlet-api:2.5">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/javax/servlet/servlet-api/2.5/servlet-api-2.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.fabric3:fabric3-spi:1.5">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-spi/1.5/fabric3-spi-1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-spi/1.5/fabric3-spi-1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-spi/1.5/fabric3-spi-1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.fabric3:fabric3-host-api:1.5">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-host-api/1.5/fabric3-host-api-1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-host-api/1.5/fabric3-host-api-1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-host-api/1.5/fabric3-host-api-1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.fabric3:fabric3-model:1.5">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-model/1.5/fabric3-model-1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-model/1.5/fabric3-model-1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-model/1.5/fabric3-model-1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.fabric3:fabric3-management-api:1.5">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-management-api/1.5/fabric3-management-api-1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-management-api/1.5/fabric3-management-api-1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-management-api/1.5/fabric3-management-api-1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+  <UsedPathMacros>
+    <macro name="M2_REPO" />
+  </UsedPathMacros>
+</project>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+           name="WsSpringCalculatorComposite"
+           targetNamespace="urn:fabric3.org:samples">
+
+    <component name="WSCalculator">
+        <implementation.spring location="META-INF/calculator-context.xml"/>
+        <service name="CalculatorService">
+            <binding.ws uri="/calculator"/>
+        </service>
+    </component>
+
+
+
+</composite>

@@ -1,0 +1,17 @@
+<config>
+    <web.server>
+        <http port="8181"/>
+    </web.server>
+    <datasources>
+       <datasource name="LoanApplicationDS" 
+                driver="org.h2.Driver"
+                url="jdbc:h2:mem:loadapplication;DB_CLOSE_DELAY=-1" 
+                type="non_xa">
+       </datasource>       
+    </datasources>
+       <!-- 
+       <driver>com.mysql.jdbc.Driver</driver>
+       <url>jdbc:mysql://localhost/bigbank</url>
+       <user>bigbank</user>
+       <password>bigbank</password> -->
+</config>
