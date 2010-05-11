@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<contribution xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+              xmlns:samples="urn:fabric3.org:samples">
+    <deployable composite="samples:SpringLoanComposite"/>
+    <!--<import.java package="javax.persistence" version="1.0.0"/>-->
+    <import.java package="org.fabric3.samples.bigbank.api.loan"/>
+    <import.java package="org.fabric3.samples.bigbank.api.message"/>
+    <import.java package="org.fabric3.samples.bigbank.services.credit"/>
+    <import.java package="org.fabric3.samples.bigbank.services.pricing"/>
+    <import.java package="org.fabric3.samples.bigbank.services.rate"/>
+    <import.java package="org.fabric3.samples.bigbank.services.risk"/>
+    <import.java package="org.fabric3.samples.bigbank.services.appraisal"/>
+</contribution>
+
+
+
