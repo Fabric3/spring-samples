@@ -3,6 +3,6 @@
       xmlns:samples="urn:fabric3.org:samples"
       name="ServicesPlan">
     <mappings>
-        <mapping deployable="samples:SpringServicesComposite" zone="zone1"/>
+        <mapping deployable="samples:SpringServicesComposite" zone="zone2"/>
     </mappings>
 </plan>

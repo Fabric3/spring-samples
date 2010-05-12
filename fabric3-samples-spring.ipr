@@ -262,28 +262,6 @@
         <root url="jar://$M2_REPO$/org/codehaus/fabric3/fabric3-api/1.6-SNAPSHOT/fabric3-api-1.6-SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.codehaus.fabric3.samples:bigbank-api:1.6-SNAPSHOT">
-      <CLASSES>
-        <root url="jar://$M2_REPO$/org/codehaus/fabric3/samples/bigbank-api/1.6-SNAPSHOT/bigbank-api-1.6-SNAPSHOT.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$M2_REPO$/org/codehaus/fabric3/samples/bigbank-api/1.6-SNAPSHOT/bigbank-api-1.6-SNAPSHOT-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$M2_REPO$/org/codehaus/fabric3/samples/bigbank-api/1.6-SNAPSHOT/bigbank-api-1.6-SNAPSHOT-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.codehaus.fabric3.samples:bigbank-services:1.6-SNAPSHOT">
-      <CLASSES>
-        <root url="jar://$M2_REPO$/org/codehaus/fabric3/samples/bigbank-services/1.6-SNAPSHOT/bigbank-services-1.6-SNAPSHOT.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$M2_REPO$/org/codehaus/fabric3/samples/bigbank-services/1.6-SNAPSHOT/bigbank-services-1.6-SNAPSHOT-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$M2_REPO$/org/codehaus/fabric3/samples/bigbank-services/1.6-SNAPSHOT/bigbank-services-1.6-SNAPSHOT-sources.jar!/" />
-      </SOURCES>
-    </library>
   </component>
   <UsedPathMacros>
     <macro name="M2_REPO" />
