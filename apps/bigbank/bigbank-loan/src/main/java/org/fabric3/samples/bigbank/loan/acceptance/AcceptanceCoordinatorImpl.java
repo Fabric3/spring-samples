@@ -22,6 +22,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import org.springframework.transaction.annotation.Transactional;
+
 import org.fabric3.samples.bigbank.api.loan.LoanApplicationNotFoundException;
 import org.fabric3.samples.bigbank.api.loan.LoanException;
 import org.fabric3.samples.bigbank.api.message.LoanApplication;
@@ -42,6 +44,7 @@ import org.fabric3.samples.bigbank.services.appraisal.AppraisalService;
  *
  * @version $Revision$ $Date$
  */
+@Transactional
 public class AcceptanceCoordinatorImpl implements AcceptanceCoordinator {
     private AppraisalService appraisalService;
     private NotificationService notificationService;
@@ -88,7 +91,7 @@ public class AcceptanceCoordinatorImpl implements AcceptanceCoordinator {
         record.setTypeSelected(type);
         record.setStatus(LoanStatus.AWAITING_APPRAISAL);
         try {
-            storeService.update(record);
+           record = storeService.update(record);
         } catch (StoreException e) {
             throw new LoanException(e);
         }

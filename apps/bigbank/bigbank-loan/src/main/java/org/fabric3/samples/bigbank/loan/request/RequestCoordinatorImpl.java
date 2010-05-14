@@ -21,6 +21,8 @@ package org.fabric3.samples.bigbank.loan.request;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.transaction.annotation.Transactional;
+
 import org.fabric3.samples.bigbank.api.loan.LoanException;
 import org.fabric3.samples.bigbank.api.message.LoanRequest;
 import org.fabric3.samples.bigbank.api.message.LoanStatus;
@@ -45,6 +47,7 @@ import org.fabric3.samples.bigbank.services.risk.RiskResponse;
  *
  * @version $Revision$ $Date$
  */
+@Transactional
 public class RequestCoordinatorImpl implements RequestCoordinator {
     private CreditService creditService;
     private RiskAssessmentService riskService;
@@ -88,8 +91,8 @@ public class RequestCoordinatorImpl implements RequestCoordinator {
             throw new LoanException(e);
         }
         // pull the applicant's credit score
-        score(record);
-        assess(record);
+        record = score(record);
+        record = assess(record);
         return record.getId();
     }
 
@@ -97,32 +100,32 @@ public class RequestCoordinatorImpl implements RequestCoordinator {
         throw new UnsupportedOperationException();
     }
 
-    private void score(LoanRecord record) throws LoanException {
+    private LoanRecord score(LoanRecord record) throws LoanException {
         // assess the loan risk
         CreditScore score = creditService.score(record.getSsn());
         System.out.println("Received credit score");
         try {
             record.setCreditScore(score.getScore());
-            storeService.update(record);
+            return storeService.update(record);
         } catch (StoreException e) {
             throw new LoanException(e);
         }
     }
 
-    private void assess(LoanRecord record) throws LoanException {
+    private LoanRecord assess(LoanRecord record) throws LoanException {
         System.out.println("Assessing loan application");
         RiskRequest riskRequest = new RiskRequest(record.getId(), record.getCreditScore(), record.getAmount(), record.getDownPayment());
         RiskResponse response = riskService.assessRisk(riskRequest);
         if (RiskResponse.APPROVE == response.getDecision()) {
             // calculate the terms
-            price(record, response);
+            return price(record, response);
         } else {
             // declined
-            reject(record);
+            return reject(record);
         }
     }
 
-    private void price(LoanRecord record, RiskResponse response) throws LoanException {
+    private LoanRecord price(LoanRecord record, RiskResponse response) throws LoanException {
         System.out.println("Accepted loan application");
         PricingRequest pricingRequest = new PricingRequest(record.getId(), response.getRiskFactor());
         PriceResponse priceResponse = pricingService.price(pricingRequest);
@@ -137,22 +140,24 @@ public class RequestCoordinatorImpl implements RequestCoordinator {
         record.setTerms(termImfos);
         try {
             record.setStatus(LoanStatus.AWAITING_ACCEPTANCE);
-            storeService.update(record);
+            record = storeService.update(record);
             // notify the client
             notificationService.approved(record.getEmail(), record.getId());
+            return record;
         } catch (StoreException e) {
             throw new LoanException(e);
         }
 
     }
 
-    private void reject(LoanRecord record) throws LoanException {
+    private LoanRecord reject(LoanRecord record) throws LoanException {
         try {
             System.out.println("Rejected loan application");
             record.setStatus(LoanStatus.REJECTED);
-            storeService.update(record);
+            record = storeService.update(record);
             // notify the client
             notificationService.rejected(record.getEmail(), record.getId());
+            return record;
         } catch (StoreException e) {
             throw new LoanException(e);
         }

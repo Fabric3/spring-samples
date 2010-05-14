@@ -19,6 +19,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+       xmlns:tx="http://www.springframework.org/schema/tx"
        xsi:schemaLocation="http://www.springframework.org/schema/aop
                            http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
                            http://www.springframework.org/schema/beans
@@ -34,12 +35,12 @@
 
     <sca:service name="LoanService" target="LoanComponent"/>
 
-    <bean name="LoanComponent" class="org.fabric3.samples.bigbank.loan.loan.LoanServiceImpl">
+    <bean id="LoanComponent" class="org.fabric3.samples.bigbank.loan.loan.LoanServiceImpl">
         <property name="requestCoordinator" ref="RequestCoordinator"/>
         <property name="acceptanceCoordinator" ref="AcceptanceCoordinator"/>
     </bean>
 
-    <bean name="RequestCoordinator" class="org.fabric3.samples.bigbank.loan.request.RequestCoordinatorImpl">
+    <bean id="RequestCoordinator" class="org.fabric3.samples.bigbank.loan.request.RequestCoordinatorImpl">
         <property name="creditService" ref="creditService"/>
         <property name="riskService" ref="riskService"/>
         <property name="pricingService" ref="pricingService"/>
@@ -47,15 +48,29 @@
         <property name="storeService" ref="StoreComponent"/>
     </bean>
 
-    <bean name="AcceptanceCoordinator" class="org.fabric3.samples.bigbank.loan.acceptance.AcceptanceCoordinatorImpl">
+    <bean id="AcceptanceCoordinator" class="org.fabric3.samples.bigbank.loan.acceptance.AcceptanceCoordinatorImpl">
         <property name="appraisalService" ref="appraisalService"/>
         <property name="notificationService" ref="NotificationComponent"/>
         <property name="storeService" ref="StoreComponent"/>
     </bean>
 
-    <bean name="NotificationComponent" class="org.fabric3.samples.bigbank.loan.notification.NotificationServiceImpl"/>
+    <bean id="NotificationComponent" class="org.fabric3.samples.bigbank.loan.notification.NotificationServiceImpl"/>
 
-    <bean name="StoreComponent" class="org.fabric3.samples.bigbank.loan.store.memory.TransientStoreService"/>
+    <bean id="StoreComponent" class="org.fabric3.samples.bigbank.loan.store.persistent.JPAStoreService"/>
+
+    <bean id="EntityManagerFactory" class="org.fabric3.implementation.spring.api.Fabric3EntityManagerFactoryBean">
+        <property name="persistenceUnitName" value="loanApplication"/>
+    </bean>
+
+    
+    <!--<bean id="EntityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">-->
+        <!--<property name="persistenceUnitName" value="loanApplication"/>-->
+        <!--<property name="dataSource" ref="LoanApplicationDS"/>-->
+    <!--</bean>-->
+
+    <bean id="PersistenceAnnotationBeanPostProcessor" class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor"/>
+
+    <tx:annotation-driven/>
 
     <sca:reference name="appraisalService" type="org.fabric3.samples.bigbank.services.appraisal.AppraisalService"/>
     <sca:reference name="creditService" type="org.fabric3.samples.bigbank.services.credit.CreditService"/>

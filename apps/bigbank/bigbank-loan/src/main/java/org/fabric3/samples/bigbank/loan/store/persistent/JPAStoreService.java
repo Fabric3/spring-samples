@@ -19,8 +19,11 @@
 package org.fabric3.samples.bigbank.loan.store.persistent;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceException;
 import javax.persistence.Query;
+
+import org.springframework.transaction.annotation.Transactional;
 
 import org.fabric3.samples.bigbank.loan.domain.LoanRecord;
 import org.fabric3.samples.bigbank.loan.store.ApplicationNotFoundException;
@@ -34,8 +37,14 @@ import org.fabric3.samples.bigbank.loan.store.StoreService;
  *
  * @version $Revision$ $Date$
  */
+@Transactional
 public class JPAStoreService implements StoreService {
     private EntityManager em;
+
+    @PersistenceContext(name = "loanApplication")
+    public void setEm(EntityManager em) {
+        this.em = em;
+    }
 
     public void save(LoanRecord record) throws StoreException {
         try {
@@ -45,9 +54,9 @@ public class JPAStoreService implements StoreService {
         }
     }
 
-    public void update(LoanRecord record) throws StoreException {
+    public LoanRecord update(LoanRecord record) throws StoreException {
         try {
-            em.merge(record);
+           return em.merge(record);
         } catch (PersistenceException e) {
             throw new StoreException(e);
         }

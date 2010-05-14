@@ -39,9 +39,10 @@ public interface StoreService {
      * Updates an existing loan application.
      *
      * @param record the loan record.
+     * @return the updated loan record
      * @throws StoreException if an exception updating the application is encountered
      */
-    void update(LoanRecord record) throws StoreException;
+    LoanRecord update(LoanRecord record) throws StoreException;
 
     /**
      * Deletes a loan application

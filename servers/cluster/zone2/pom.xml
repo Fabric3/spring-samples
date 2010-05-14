@@ -45,6 +45,11 @@
                 <configuration>
                     <runtimeVersion>${fabric3.version}</runtimeVersion>
                     <profiles>
+                        <profile>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>profile-spring</artifactId>
+                            <version>${fabric3.version}</version>
+                        </profile>
                         <!-- Web Services support -->
                         <profile>
                             <groupId>org.codehaus.fabric3</groupId>
@@ -76,18 +81,6 @@
                             <version>${fabric3.version}</version> 
                         </profile> -->
                     </profiles>
-                    <extensions>
-                        <extension>
-                            <groupId>org.codehaus.fabric3</groupId>
-                            <artifactId>fabric3-spring</artifactId>
-                            <version>${fabric3.version}</version>
-                        </extension>
-                        <extension>
-                            <groupId>org.codehaus.fabric3</groupId>
-                            <artifactId>fabric3-spring-library</artifactId>
-                            <version>${fabric3.version}</version>
-                        </extension>
-                    </extensions>
                     <!-- overlay configuration -->
                     <configurationFiles>
                         <copy>

@@ -22,8 +22,9 @@ public class TransientStoreService implements StoreService {
         cache.put(id, record);
     }
 
-    public void update(LoanRecord record) throws StoreException {
+    public LoanRecord update(LoanRecord record) throws StoreException {
         save(record);
+        return record;
     }
 
     public void remove(long id) throws StoreException {
