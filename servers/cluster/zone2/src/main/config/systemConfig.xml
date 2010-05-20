@@ -2,7 +2,8 @@
     <web.server>
         <http port="8182"/>
     </web.server>
-    <datasources>
+     <runtime jmxPort="8000-9000"/>
+   <datasources>
        <datasource name="LoanApplicationDS" 
                 driver="org.h2.Driver"
                 url="jdbc:h2:mem:loadapplication;DB_CLOSE_DELAY=-1" 

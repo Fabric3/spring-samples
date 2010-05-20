@@ -2,6 +2,7 @@
     <web.server>
         <http port="8181"/>
     </web.server>
+    <runtime jmxPort="8000-9000"/>
     <datasources>
        <datasource name="LoanApplicationDS" 
                 driver="org.h2.Driver"
