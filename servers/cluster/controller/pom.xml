@@ -67,7 +67,7 @@
                     <configurationFiles>
                         <copy>
                             <source>config/systemConfig.xml</source>
-                            <destination>config/controller</destination>
+                            <destination>runtimes/controller/config</destination>
                         </copy>
                      </configurationFiles> 
                   </configuration>
