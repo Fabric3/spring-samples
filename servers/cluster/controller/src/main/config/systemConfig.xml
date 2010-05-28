@@ -1,5 +1,6 @@
 <config>
-    <web.server>
+    <runtime mode="controller"/>
+      <web.server>
         <http port="8180"/>
     </web.server>
     <federation>
