@@ -18,9 +18,9 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <parent>
-       <groupId>org.codehaus.fabric3.samples</groupId>
-       <artifactId>servers-spring-cluster-parent-pom</artifactId>
-       <version>1.6-SNAPSHOT</version>
+        <groupId>org.codehaus.fabric3.samples</groupId>
+        <artifactId>servers-spring-cluster-parent-pom</artifactId>
+        <version>1.6-SNAPSHOT</version>
     </parent>
     <groupId>org.codehaus.fabric3.samples</groupId>
     <artifactId>servers-spring-controller</artifactId>
@@ -28,7 +28,7 @@
     <name>Fabric3 Spring Controller Setup</name>
     <description>Fabric3 Spring Controller Setup.</description>
 
-      <build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.fabric3</groupId>
@@ -69,8 +69,15 @@
                             <source>config/systemConfig.xml</source>
                             <destination>runtimes/controller/config</destination>
                         </copy>
-                     </configurationFiles> 
-                  </configuration>
+                    </configurationFiles>
+                    <removeExtensions>
+                        <dependency>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>fabric3-security-impl</artifactId>
+                            <version>1.6-SNAPSHOT</version>
+                        </dependency>
+                    </removeExtensions>
+                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -7,11 +7,22 @@
                 driver="org.h2.Driver"
                 url="jdbc:h2:mem:loadapplication;DB_CLOSE_DELAY=-1" 
                 type="non_xa">
+           <minPoolSize>5</minPoolSize>
+           <maxPoolSize>10</maxPoolSize>
        </datasource>       
+        <!--<datasource name="SecurityDS"-->
+                 <!--driver="org.h2.Driver"-->
+                 <!--url="jdbc:h2:mem:security;DB_CLOSE_DELAY=-1" -->
+                 <!--type="non_xa">-->
+        <!--</datasource>-->
     </datasources>
-       <!-- 
-       <driver>com.mysql.jdbc.Driver</driver>
-       <url>jdbc:mysql://localhost/bigbank</url>
-       <user>bigbank</user>
-       <password>bigbank</password> -->
+    <!--<security>-->
+        <!--<spring.security>-->
+            <!--<authentication-manager>-->
+               <!--<authentication-provider>-->
+                    <!--<jdbc-user-service data-source-ref="SecurityDS"/>-->
+               <!--</authentication-provider>-->
+            <!--</authentication-manager>-->
+        <!--</spring.security>-->
+    <!--</security>-->
 </config>

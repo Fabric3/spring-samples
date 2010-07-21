@@ -18,9 +18,9 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <parent>
-       <groupId>org.codehaus.fabric3.samples</groupId>
-       <artifactId>servers-spring-cluster-parent-pom</artifactId>
-       <version>1.6-SNAPSHOT</version>
+        <groupId>org.codehaus.fabric3.samples</groupId>
+        <artifactId>servers-spring-cluster-parent-pom</artifactId>
+        <version>1.6-SNAPSHOT</version>
     </parent>
     <groupId>org.codehaus.fabric3.samples</groupId>
     <artifactId>servers-spring-zone2</artifactId>
@@ -28,7 +28,7 @@
     <name>Fabric3 Spring Zone2 Setup</name>
     <description>Fabric3 Zone2 Setup.</description>
 
-      <build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.fabric3</groupId>
@@ -95,7 +95,14 @@
                             <source>config/systemConfig.xml</source>
                             <destination>runtimes/participant/config</destination>
                         </copy>
-                     </configurationFiles> 
+                    </configurationFiles>
+                    <removeExtensions>
+                        <dependency>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>fabric3-security-impl</artifactId>
+                            <version>1.6-SNAPSHOT</version>
+                        </dependency>
+                    </removeExtensions>
                 </configuration>
             </plugin>
         </plugins>

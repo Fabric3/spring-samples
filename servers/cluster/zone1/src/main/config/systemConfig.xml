@@ -8,6 +8,8 @@
                 driver="org.h2.Driver"
                 url="jdbc:h2:mem:loadapplication;DB_CLOSE_DELAY=-1" 
                 type="non_xa">
+           <minPoolSize>5</minPoolSize>
+           <maxPoolSize>10</maxPoolSize>
        </datasource>       
     </datasources>
     <jms>
