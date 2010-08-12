@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<plan xmlns="urn:fabric3.org:core"
+      xmlns:ns="urn:fabric3.org:samples"
+      name="WsCalcPlan">
+    <mappings>
+        <mapping deployable="ns:RESTSpringCalculatorComposite" zone="zone1"/>
+    </mappings>
+</plan>

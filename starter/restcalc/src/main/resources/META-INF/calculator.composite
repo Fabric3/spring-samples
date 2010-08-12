@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+           name="RESTSpringCalculatorComposite"
+           xmlns:f3-binding="urn:org.fabric3:binding"
+           targetNamespace="urn:fabric3.org:samples">
+
+    <component name="RESTCalculator">
+        <implementation.spring location="META-INF/calculator-context.xml"/>
+        <service name="CalculatorService">
+            <f3-binding:binding.rs uri="/calculator"/>
+        </service>
+    </component>
+
+</composite>
