@@ -1,4 +1,3 @@
-
 package org.fabric3.samples.ws.calculator;
 
 import javax.xml.bind.JAXBElement;
@@ -8,18 +7,10 @@ import javax.xml.namespace.QName;
 
 
 /**
- * This object contains factory methods for each 
- * Java content interface and Java element interface 
- * generated in the org.fabric3.samples.ws.calculator package. 
- * <p>An ObjectFactory allows you to programatically 
- * construct new instances of the Java representation 
- * for XML content. The Java representation of XML 
- * content can consist of schema derived interfaces 
- * and classes representing the binding of schema 
- * type definitions, element declarations and model 
- * groups.  Factory methods for each of these are 
- * provided in this class.
- * 
+ * This object contains factory methods for each Java content interface and Java element interface generated in the org.fabric3.samples.ws.calculator
+ * package. <p>An ObjectFactory allows you to programatically construct new instances of the Java representation for XML content. The Java
+ * representation of XML content can consist of schema derived interfaces and classes representing the binding of schema type definitions, element
+ * declarations and model groups.  Factory methods for each of these are provided in this class.
  */
 @XmlRegistry
 public class ObjectFactory {
@@ -35,14 +26,12 @@ public class ObjectFactory {
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: org.fabric3.samples.ws.calculator
-     * 
      */
     public ObjectFactory() {
     }
 
     /**
      * Create an instance of {@link MultiplyResponse }
-     * 
      */
     public MultiplyResponse createMultiplyResponse() {
         return new MultiplyResponse();
@@ -50,7 +39,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link AddResponse }
-     * 
      */
     public AddResponse createAddResponse() {
         return new AddResponse();
@@ -58,7 +46,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Subtract }
-     * 
      */
     public Subtract createSubtract() {
         return new Subtract();
@@ -66,7 +53,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link DivideResponse }
-     * 
      */
     public DivideResponse createDivideResponse() {
         return new DivideResponse();
@@ -74,7 +60,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Add }
-     * 
      */
     public Add createAdd() {
         return new Add();
@@ -82,7 +67,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Multiply }
-     * 
      */
     public Multiply createMultiply() {
         return new Multiply();
@@ -90,7 +74,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SubtractResponse }
-     * 
      */
     public SubtractResponse createSubtractResponse() {
         return new SubtractResponse();
@@ -98,7 +81,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Divide }
-     * 
      */
     public Divide createDivide() {
         return new Divide();
@@ -106,7 +88,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Divide }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://calculator.ws.samples.fabric3.org/", name = "divide")
     public JAXBElement<Divide> createDivide(Divide value) {
@@ -115,7 +96,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Multiply }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://calculator.ws.samples.fabric3.org/", name = "multiply")
     public JAXBElement<Multiply> createMultiply(Multiply value) {
@@ -124,7 +104,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Add }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://calculator.ws.samples.fabric3.org/", name = "add")
     public JAXBElement<Add> createAdd(Add value) {
@@ -133,7 +112,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link DivideResponse }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://calculator.ws.samples.fabric3.org/", name = "divideResponse")
     public JAXBElement<DivideResponse> createDivideResponse(DivideResponse value) {
@@ -142,7 +120,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SubtractResponse }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://calculator.ws.samples.fabric3.org/", name = "subtractResponse")
     public JAXBElement<SubtractResponse> createSubtractResponse(SubtractResponse value) {
@@ -151,7 +128,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Subtract }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://calculator.ws.samples.fabric3.org/", name = "subtract")
     public JAXBElement<Subtract> createSubtract(Subtract value) {
@@ -160,7 +136,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link AddResponse }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://calculator.ws.samples.fabric3.org/", name = "addResponse")
     public JAXBElement<AddResponse> createAddResponse(AddResponse value) {
@@ -169,7 +144,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link MultiplyResponse }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://calculator.ws.samples.fabric3.org/", name = "multiplyResponse")
     public JAXBElement<MultiplyResponse> createMultiplyResponse(MultiplyResponse value) {

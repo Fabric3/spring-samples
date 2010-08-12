@@ -1,4 +1,3 @@
-
 package org.fabric3.samples.ws.calculator;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -8,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for add complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="add">
  *   &lt;complexContent>
@@ -23,13 +22,11 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "add", propOrder = {
-    "arg0",
-    "arg1"
+        "arg0",
+        "arg1"
 })
 public class Add {
 
@@ -38,7 +35,6 @@ public class Add {
 
     /**
      * Gets the value of the arg0 property.
-     * 
      */
     public double getArg0() {
         return arg0;
@@ -46,7 +42,6 @@ public class Add {
 
     /**
      * Sets the value of the arg0 property.
-     * 
      */
     public void setArg0(double value) {
         this.arg0 = value;
@@ -54,7 +49,6 @@ public class Add {
 
     /**
      * Gets the value of the arg1 property.
-     * 
      */
     public double getArg1() {
         return arg1;
@@ -62,7 +56,6 @@ public class Add {
 
     /**
      * Sets the value of the arg1 property.
-     * 
      */
     public void setArg1(double value) {
         this.arg1 = value;
