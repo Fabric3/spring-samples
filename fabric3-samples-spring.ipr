@@ -157,7 +157,11 @@
       <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-services/bigbank-services.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-services/bigbank-services.iml" group="bigbank" />
       <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-spring-parent-pom.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-spring-parent-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/fabric3-samples-spring-apps-parent-pom.iml" filepath="$PROJECT_DIR$/apps/fabric3-samples-spring-apps-parent-pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/fabric3-samples-spring-features-parent-pom.iml" filepath="$PROJECT_DIR$/features/fabric3-samples-spring-features-parent-pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/hibernate/fabric3-samples-spring-hibernate.iml" filepath="$PROJECT_DIR$/features/hibernate/fabric3-samples-spring-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/hibernate-client/fabric3-samples-spring-hibernate-client.iml" filepath="$PROJECT_DIR$/features/hibernate-client/fabric3-samples-spring-hibernate-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/fabric3-samples-spring-parent-pom.iml" filepath="$PROJECT_DIR$/fabric3-samples-spring-parent-pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/restcalc/fabric3-samples-spring-restcalc.iml" filepath="$PROJECT_DIR$/starter/restcalc/fabric3-samples-spring-restcalc.iml" />
       <module fileurl="file://$PROJECT_DIR$/starter/fabric3-samples-spring-starter-parent-pom.iml" filepath="$PROJECT_DIR$/starter/fabric3-samples-spring-starter-parent-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/starter/wscalc/fabric3-samples-wscalc.iml" filepath="$PROJECT_DIR$/starter/wscalc/fabric3-samples-wscalc.iml" group="starter" />
       <module fileurl="file://$PROJECT_DIR$/starter/wscalc-client/fabric3-samples-wscalc-client.iml" filepath="$PROJECT_DIR$/starter/wscalc-client/fabric3-samples-wscalc-client.iml" group="starter" />
@@ -343,6 +347,171 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$M2_REPO$/org/springframework/spring-expression/3.0.2.RELEASE/spring-expression-3.0.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.ws.rs:jsr311-api:1.1.1">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hibernate:hibernate-core:3.5.3-Final">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/hibernate/hibernate-core/3.5.3-Final/hibernate-core-3.5.3-Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/hibernate/hibernate-core/3.5.3-Final/hibernate-core-3.5.3-Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/hibernate/hibernate-core/3.5.3-Final/hibernate-core-3.5.3-Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: antlr:antlr:2.7.6">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/antlr/antlr/2.7.6/antlr-2.7.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/antlr/antlr/2.7.6/antlr-2.7.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/antlr/antlr/2.7.6/antlr-2.7.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-collections:commons-collections:3.1">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/commons-collections/commons-collections/3.1/commons-collections-3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/commons-collections/commons-collections/3.1/commons-collections-3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: dom4j:dom4j:1.6.1">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/dom4j/dom4j/1.6.1/dom4j-1.6.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: xml-apis:xml-apis:1.0.b2">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.transaction:jta:1.1">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/javax/transaction/jta/1.1/jta-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/javax/transaction/jta/1.1/jta-1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/javax/transaction/jta/1.1/jta-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:slf4j-api:1.5.8">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.jersey:jersey-client:1.3">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/com/sun/jersey/jersey-client/1.3/jersey-client-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/com/sun/jersey/jersey-client/1.3/jersey-client-1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/com/sun/jersey/jersey-client/1.3/jersey-client-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.jersey:jersey-core:1.3">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/com/sun/jersey/jersey-core/1.3/jersey-core-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/com/sun/jersey/jersey-core/1.3/jersey-core-1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/com/sun/jersey/jersey-core/1.3/jersey-core-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.jackson:jackson-jaxrs:1.5.5">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-jaxrs/1.5.5/jackson-jaxrs-1.5.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-jaxrs/1.5.5/jackson-jaxrs-1.5.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-jaxrs/1.5.5/jackson-jaxrs-1.5.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.jackson:jackson-core-asl:1.5.5">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-core-asl/1.5.5/jackson-core-asl-1.5.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-core-asl/1.5.5/jackson-core-asl-1.5.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-core-asl/1.5.5/jackson-core-asl-1.5.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.5.5">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-mapper-asl/1.5.5/jackson-mapper-asl-1.5.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-mapper-asl/1.5.5/jackson-mapper-asl-1.5.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-mapper-asl/1.5.5/jackson-mapper-asl-1.5.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.jackson:jackson-xc:1.5.5">
+      <CLASSES>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-xc/1.5.5/jackson-xc-1.5.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-xc/1.5.5/jackson-xc-1.5.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$M2_REPO$/org/codehaus/jackson/jackson-xc/1.5.5/jackson-xc-1.5.5-sources.jar!/" />
       </SOURCES>
     </library>
   </component>
