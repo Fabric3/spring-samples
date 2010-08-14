@@ -16,10 +16,10 @@
  */
 package org.fabric3.samples.bigbank.services.rate;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.io.Serializable;
 
 /**
  * A collection of current loan Rates.

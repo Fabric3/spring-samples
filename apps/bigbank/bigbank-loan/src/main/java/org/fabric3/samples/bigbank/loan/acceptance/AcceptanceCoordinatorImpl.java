@@ -91,7 +91,7 @@ public class AcceptanceCoordinatorImpl implements AcceptanceCoordinator {
         record.setTypeSelected(type);
         record.setStatus(LoanStatus.AWAITING_APPRAISAL);
         try {
-           record = storeService.update(record);
+            record = storeService.update(record);
         } catch (StoreException e) {
             throw new LoanException(e);
         }

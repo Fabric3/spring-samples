@@ -18,8 +18,12 @@
  */
 package org.fabric3.samples.bigbank.loan.domain;
 
-import javax.persistence.*;
 import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Version;
 
 /**
  * @version $Revision$ $Date$

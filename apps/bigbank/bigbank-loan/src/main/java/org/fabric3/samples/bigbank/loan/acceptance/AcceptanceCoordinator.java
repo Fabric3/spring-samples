@@ -22,8 +22,8 @@ import org.fabric3.samples.bigbank.api.loan.LoanException;
 import org.fabric3.samples.bigbank.api.message.LoanApplication;
 
 /**
- * Coordinator that handles processing for loan terms that have been accepted by applicants. If a loan is accepted, an
- * appraisal will be ordered and a funding date scheduled once the appraisal has been received and approved.
+ * Coordinator that handles processing for loan terms that have been accepted by applicants. If a loan is accepted, an appraisal will be ordered and a
+ * funding date scheduled once the appraisal has been received and approved.
  *
  * @version $Revision$ $Date$
  */
@@ -33,8 +33,8 @@ public interface AcceptanceCoordinator {
      *
      * @param id the loan id
      * @return the loan application
-     * @throws LoanException if an exception during acceptance was encountered. Subtypes including
-     *                       LoanNotFoundException and LoanNotApprovedException may be thrown.
+     * @throws LoanException if an exception during acceptance was encountered. Subtypes including LoanNotFoundException and LoanNotApprovedException
+     *                       may be thrown.
      */
     LoanApplication retrieve(long id) throws LoanException;
 
@@ -51,8 +51,8 @@ public interface AcceptanceCoordinator {
      * Declines the terms of a loan.
      *
      * @param id the loan id
-     * @throws LoanException if an exception during acceptance was encountered. Subtypes including
-     *                       LoanNotFoundException and LoanNotApprovedException may be thrown.
+     * @throws LoanException if an exception during acceptance was encountered. Subtypes including LoanNotFoundException and LoanNotApprovedException
+     *                       may be thrown.
      */
     void decline(long id) throws LoanException;
 }

@@ -1,4 +1,3 @@
-
 package org.fabric3.samples.bigbank.client.ws.loan;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -8,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for address complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="address">
  *   &lt;complexContent>
@@ -25,15 +24,13 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "address", propOrder = {
-    "city",
-    "state",
-    "street",
-    "zip"
+        "city",
+        "state",
+        "street",
+        "zip"
 })
 public class Address {
 
@@ -44,11 +41,8 @@ public class Address {
 
     /**
      * Gets the value of the city property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
      */
     public String getCity() {
         return city;
@@ -56,11 +50,8 @@ public class Address {
 
     /**
      * Sets the value of the city property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
      */
     public void setCity(String value) {
         this.city = value;
@@ -68,11 +59,8 @@ public class Address {
 
     /**
      * Gets the value of the state property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
      */
     public String getState() {
         return state;
@@ -80,11 +68,8 @@ public class Address {
 
     /**
      * Sets the value of the state property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
      */
     public void setState(String value) {
         this.state = value;
@@ -92,11 +77,8 @@ public class Address {
 
     /**
      * Gets the value of the street property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
      */
     public String getStreet() {
         return street;
@@ -104,11 +86,8 @@ public class Address {
 
     /**
      * Sets the value of the street property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
      */
     public void setStreet(String value) {
         this.street = value;
@@ -116,7 +95,6 @@ public class Address {
 
     /**
      * Gets the value of the zip property.
-     * 
      */
     public int getZip() {
         return zip;
@@ -124,7 +102,6 @@ public class Address {
 
     /**
      * Sets the value of the zip property.
-     * 
      */
     public void setZip(int value) {
         this.zip = value;

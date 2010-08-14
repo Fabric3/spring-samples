@@ -16,10 +16,8 @@
  */
 package org.fabric3.samples.bigbank.api.message;
 
-import org.fabric3.samples.bigbank.api.message.LoanOption;
-
-import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * Represents a loan application submitted by a borrower.

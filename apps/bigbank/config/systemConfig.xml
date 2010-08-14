@@ -3,8 +3,8 @@
         <http port="8181"/>
     </web.server>
     <datasource>
-       <url>jdbc:h2:mem:loanapplication;DB_CLOSE_DELAY=-1</url>
-       <driver>org.h2.Driver</driver>
+        <url>jdbc:h2:mem:loanapplication;DB_CLOSE_DELAY=-1</url>
+        <driver>org.h2.Driver</driver>
         <keys>LoanApplicationDS</keys>
     </datasource>
 </config>

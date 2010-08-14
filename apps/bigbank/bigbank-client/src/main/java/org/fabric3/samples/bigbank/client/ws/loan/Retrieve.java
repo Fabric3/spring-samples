@@ -1,4 +1,3 @@
-
 package org.fabric3.samples.bigbank.client.ws.loan;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -8,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for retrieve complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="retrieve">
  *   &lt;complexContent>
@@ -22,12 +21,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "retrieve", propOrder = {
-    "arg0"
+        "arg0"
 })
 public class Retrieve {
 
@@ -35,7 +32,6 @@ public class Retrieve {
 
     /**
      * Gets the value of the arg0 property.
-     * 
      */
     public long getArg0() {
         return arg0;
@@ -43,7 +39,6 @@ public class Retrieve {
 
     /**
      * Sets the value of the arg0 property.
-     * 
      */
     public void setArg0(long value) {
         this.arg0 = value;

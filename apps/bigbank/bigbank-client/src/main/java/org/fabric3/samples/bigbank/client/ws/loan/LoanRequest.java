@@ -1,4 +1,3 @@
-
 package org.fabric3.samples.bigbank.client.ws.loan;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -9,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for loanRequest complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="loanRequest">
  *   &lt;complexContent>
@@ -27,16 +26,14 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "loanRequest", propOrder = {
-    "amount",
-    "downPayment",
-    "email",
-    "propertyAddress",
-    "ssn"
+        "amount",
+        "downPayment",
+        "email",
+        "propertyAddress",
+        "ssn"
 })
 public class LoanRequest {
 
@@ -49,7 +46,6 @@ public class LoanRequest {
 
     /**
      * Gets the value of the amount property.
-     * 
      */
     public double getAmount() {
         return amount;
@@ -57,7 +53,6 @@ public class LoanRequest {
 
     /**
      * Sets the value of the amount property.
-     * 
      */
     public void setAmount(double value) {
         this.amount = value;
@@ -65,7 +60,6 @@ public class LoanRequest {
 
     /**
      * Gets the value of the downPayment property.
-     * 
      */
     public double getDownPayment() {
         return downPayment;
@@ -73,7 +67,6 @@ public class LoanRequest {
 
     /**
      * Sets the value of the downPayment property.
-     * 
      */
     public void setDownPayment(double value) {
         this.downPayment = value;
@@ -81,11 +74,8 @@ public class LoanRequest {
 
     /**
      * Gets the value of the email property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
      */
     public String getEmail() {
         return email;
@@ -93,11 +83,8 @@ public class LoanRequest {
 
     /**
      * Sets the value of the email property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
      */
     public void setEmail(String value) {
         this.email = value;
@@ -105,11 +92,8 @@ public class LoanRequest {
 
     /**
      * Gets the value of the propertyAddress property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Address }
-     *     
+     *
+     * @return possible object is {@link Address }
      */
     public Address getPropertyAddress() {
         return propertyAddress;
@@ -117,11 +101,8 @@ public class LoanRequest {
 
     /**
      * Sets the value of the propertyAddress property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Address }
-     *     
+     *
+     * @param value allowed object is {@link Address }
      */
     public void setPropertyAddress(Address value) {
         this.propertyAddress = value;
@@ -129,11 +110,8 @@ public class LoanRequest {
 
     /**
      * Gets the value of the ssn property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
      */
     public String getSSN() {
         return ssn;
@@ -141,11 +119,8 @@ public class LoanRequest {
 
     /**
      * Sets the value of the ssn property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
      */
     public void setSSN(String value) {
         this.ssn = value;

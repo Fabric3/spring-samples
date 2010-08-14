@@ -1,4 +1,3 @@
-
 package org.fabric3.samples.bigbank.client.ws.loan;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -8,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for apply complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="apply">
  *   &lt;complexContent>
@@ -22,12 +21,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "apply", propOrder = {
-    "arg0"
+        "arg0"
 })
 public class Apply {
 
@@ -35,11 +32,8 @@ public class Apply {
 
     /**
      * Gets the value of the arg0 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link LoanRequest }
-     *     
+     *
+     * @return possible object is {@link LoanRequest }
      */
     public LoanRequest getArg0() {
         return arg0;
@@ -47,11 +41,8 @@ public class Apply {
 
     /**
      * Sets the value of the arg0 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link LoanRequest }
-     *     
+     *
+     * @param value allowed object is {@link LoanRequest }
      */
     public void setArg0(LoanRequest value) {
         this.arg0 = value;

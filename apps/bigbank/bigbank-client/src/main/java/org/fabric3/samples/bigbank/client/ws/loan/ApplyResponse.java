@@ -1,4 +1,3 @@
-
 package org.fabric3.samples.bigbank.client.ws.loan;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -9,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for applyResponse complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="applyResponse">
  *   &lt;complexContent>
@@ -23,12 +22,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "applyResponse", propOrder = {
-    "_return"
+        "_return"
 })
 public class ApplyResponse {
 
@@ -37,7 +34,6 @@ public class ApplyResponse {
 
     /**
      * Gets the value of the return property.
-     * 
      */
     public long getReturn() {
         return _return;
@@ -45,7 +41,6 @@ public class ApplyResponse {
 
     /**
      * Sets the value of the return property.
-     * 
      */
     public void setReturn(long value) {
         this._return = value;

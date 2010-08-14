@@ -62,10 +62,10 @@
         <property name="persistenceUnitName" value="loanApplication"/>
     </bean>
 
-    
+
     <!--<bean id="EntityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">-->
-        <!--<property name="persistenceUnitName" value="loanApplication"/>-->
-        <!--<property name="dataSource" ref="LoanApplicationDS"/>-->
+    <!--<property name="persistenceUnitName" value="loanApplication"/>-->
+    <!--<property name="dataSource" ref="LoanApplicationDS"/>-->
     <!--</bean>-->
 
     <bean id="PersistenceAnnotationBeanPostProcessor" class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor"/>

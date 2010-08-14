@@ -1,4 +1,3 @@
-
 package org.fabric3.samples.bigbank.client.ws.loan;
 
 import java.util.ArrayList;
@@ -11,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for loanApplication complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="loanApplication">
  *   &lt;complexContent>
@@ -26,13 +25,11 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "loanApplication", propOrder = {
-    "options",
-    "status"
+        "options",
+        "status"
 })
 public class LoanApplication {
 
@@ -42,25 +39,20 @@ public class LoanApplication {
 
     /**
      * Gets the value of the options property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the options property.
-     * 
-     * <p>
+     * <p/>
+     * <p/>
+     * This accessor method returns a reference to the live list, not a snapshot. Therefore any modification you make to the returned list will be
+     * present inside the JAXB object. This is why there is not a <CODE>set</CODE> method for the options property.
+     * <p/>
+     * <p/>
      * For example, to add a new item, do as follows:
      * <pre>
      *    getOptions().add(newItem);
      * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link LoanOption }
-     * 
-     * 
+     * <p/>
+     * <p/>
+     * <p/>
+     * Objects of the following type(s) are allowed in the list {@link LoanOption }
      */
     public List<LoanOption> getOptions() {
         if (options == null) {
@@ -71,7 +63,6 @@ public class LoanApplication {
 
     /**
      * Gets the value of the status property.
-     * 
      */
     public int getStatus() {
         return status;
@@ -79,7 +70,6 @@ public class LoanApplication {
 
     /**
      * Sets the value of the status property.
-     * 
      */
     public void setStatus(int value) {
         this.status = value;

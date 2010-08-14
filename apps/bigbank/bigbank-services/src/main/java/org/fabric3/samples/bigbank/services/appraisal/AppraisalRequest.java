@@ -18,14 +18,14 @@
  */
 package org.fabric3.samples.bigbank.services.appraisal;
 
-import org.fabric3.samples.bigbank.api.message.Address;
-
 import java.io.Serializable;
+
+import org.fabric3.samples.bigbank.api.message.Address;
 
 /**
  * @version $Revision$ $Date$
  */
-public class AppraisalRequest implements Serializable{
+public class AppraisalRequest implements Serializable {
     private static final long serialVersionUID = 2668698694695992759L;
     private long id;
     private Address address;

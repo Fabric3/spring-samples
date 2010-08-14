@@ -20,7 +20,6 @@ package org.fabric3.samples.bigbank.loan.request;
 
 import org.fabric3.samples.bigbank.api.loan.LoanException;
 import org.fabric3.samples.bigbank.api.message.LoanRequest;
-import org.osoa.sca.annotations.Conversational;
 
 /**
  * Coordinator that proccesses new loan requests.

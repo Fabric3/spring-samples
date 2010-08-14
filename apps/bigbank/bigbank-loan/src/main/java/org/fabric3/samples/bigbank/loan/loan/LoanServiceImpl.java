@@ -25,8 +25,7 @@ import org.fabric3.samples.bigbank.loan.acceptance.AcceptanceCoordinator;
 import org.fabric3.samples.bigbank.loan.request.RequestCoordinator;
 
 /**
- * Default implementation of the LoanService. This implementation elegates to a series of coordinators that process the
- * loan application.
+ * Default implementation of the LoanService. This implementation elegates to a series of coordinators that process the loan application.
  *
  * @version $Rev$ $Date$
  */

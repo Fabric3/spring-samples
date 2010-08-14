@@ -1,4 +1,3 @@
-
 package org.fabric3.samples.bigbank.client.ws.loan;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -8,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for loanOption complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="loanOption">
  *   &lt;complexContent>
@@ -24,14 +23,12 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "loanOption", propOrder = {
-    "apr",
-    "rate",
-    "type"
+        "apr",
+        "rate",
+        "type"
 })
 public class LoanOption {
 
@@ -41,7 +38,6 @@ public class LoanOption {
 
     /**
      * Gets the value of the apr property.
-     * 
      */
     public float getApr() {
         return apr;
@@ -49,7 +45,6 @@ public class LoanOption {
 
     /**
      * Sets the value of the apr property.
-     * 
      */
     public void setApr(float value) {
         this.apr = value;
@@ -57,7 +52,6 @@ public class LoanOption {
 
     /**
      * Gets the value of the rate property.
-     * 
      */
     public float getRate() {
         return rate;
@@ -65,7 +59,6 @@ public class LoanOption {
 
     /**
      * Sets the value of the rate property.
-     * 
      */
     public void setRate(float value) {
         this.rate = value;
@@ -73,11 +66,8 @@ public class LoanOption {
 
     /**
      * Gets the value of the type property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
      */
     public String getType() {
         return type;
@@ -85,11 +75,8 @@ public class LoanOption {
 
     /**
      * Sets the value of the type property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
      */
     public void setType(String value) {
         this.type = value;

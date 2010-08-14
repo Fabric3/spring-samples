@@ -56,7 +56,7 @@ public class JPAStoreService implements StoreService {
 
     public LoanRecord update(LoanRecord record) throws StoreException {
         try {
-           return em.merge(record);
+            return em.merge(record);
         } catch (PersistenceException e) {
             throw new StoreException(e);
         }

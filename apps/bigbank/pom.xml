@@ -19,9 +19,9 @@
 
     <modelVersion>4.0.0</modelVersion>
     <parent>
-       <groupId>org.codehaus.fabric3.samples</groupId>
-       <artifactId>fabric3-samples-spring-apps-parent-pom</artifactId>
-       <version>1.6-SNAPSHOT</version>
+        <groupId>org.codehaus.fabric3.samples</groupId>
+        <artifactId>fabric3-samples-spring-apps-parent-pom</artifactId>
+        <version>1.6-SNAPSHOT</version>
     </parent>
     <groupId>org.codehaus.fabric3.samples</groupId>
     <artifactId>bigbank-spring-parent-pom</artifactId>
@@ -30,10 +30,10 @@
     <packaging>pom</packaging>
 
     <modules>
-      <module>bigbank-api</module>  
-      <module>bigbank-services</module>  
-      <module>bigbank-loan</module>  
-      <module>bigbank-client</module>  
+        <module>bigbank-api</module>
+        <module>bigbank-services</module>
+        <module>bigbank-loan</module>
+        <module>bigbank-client</module>
     </modules>
-	
+
 </project>

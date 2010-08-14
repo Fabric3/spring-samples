@@ -30,6 +30,6 @@
     <packaging>pom</packaging>
 
     <modules>
-       <module>bigbank</module> 
+        <module>bigbank</module>
     </modules>
 </project>

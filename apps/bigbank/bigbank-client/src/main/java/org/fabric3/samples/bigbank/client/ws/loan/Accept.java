@@ -1,4 +1,3 @@
-
 package org.fabric3.samples.bigbank.client.ws.loan;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -8,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for accept complex type.
- * 
+ * <p/>
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p/>
  * <pre>
  * &lt;complexType name="accept">
  *   &lt;complexContent>
@@ -22,12 +21,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "accept", propOrder = {
-    "arg0"
+        "arg0"
 })
 public class Accept {
 
@@ -35,11 +32,8 @@ public class Accept {
 
     /**
      * Gets the value of the arg0 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link OptionSelection }
-     *     
+     *
+     * @return possible object is {@link OptionSelection }
      */
     public OptionSelection getArg0() {
         return arg0;
@@ -47,11 +41,8 @@ public class Accept {
 
     /**
      * Sets the value of the arg0 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link OptionSelection }
-     *     
+     *
+     * @param value allowed object is {@link OptionSelection }
      */
     public void setArg0(OptionSelection value) {
         this.arg0 = value;

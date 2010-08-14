@@ -1,4 +1,4 @@
-package  org.fabric3.samples.bigbank.loan.acceptance;
+package org.fabric3.samples.bigbank.loan.acceptance;
 
 import org.fabric3.samples.bigbank.api.loan.LoanException;
 
