@@ -1,29 +1,29 @@
 <config>
     <runtime mode="controller"/>
-      <web.server>
+    <web.server>
         <http port="8180"/>
     </web.server>
     <federation>
         <runtimeName>Controller</runtimeName>
     </federation>
     <datasources>
-       <datasource name="LoanApplicationDS" 
-                driver="org.h2.Driver"
-                url="jdbc:h2:mem:loadapplication;DB_CLOSE_DELAY=-1" 
-                type="non_xa">
-       </datasource>       
+        <datasource name="LoanApplicationDS"
+                    driver="org.h2.Driver"
+                    url="jdbc:h2:mem:loadapplication;DB_CLOSE_DELAY=-1"
+                    type="non_xa">
+        </datasource>
     </datasources>
     <jms>
-       <connection.factories>
-          <connection.factory name="xaDefault" type="xa"/>
-          <connection.factory name="default" type="local"/>
+        <connection.factories>
+            <connection.factory name="xaDefault" type="xa"/>
+            <connection.factory name="default" type="local"/>
         </connection.factories>
         <binding.sca factory="default" xa.factory="xaDefault"/>
     </jms>
- 
-       <!-- 
-       <driver>com.mysql.jdbc.Driver</driver>
-       <url>jdbc:mysql://localhost/bigbank</url>
-       <user>bigbank</user>
-       <password>bigbank</password> -->
+
+    <!--
+   <driver>com.mysql.jdbc.Driver</driver>
+   <url>jdbc:mysql://localhost/bigbank</url>
+   <user>bigbank</user>
+   <password>bigbank</password> -->
 </config>

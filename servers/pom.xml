@@ -18,9 +18,9 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <parent>
-       <groupId>org.codehaus.fabric3.samples</groupId>
-       <artifactId>fabric3-samples-spring-parent-pom</artifactId>
-       <version>1.6-SNAPSHOT</version>
+        <groupId>org.codehaus.fabric3.samples</groupId>
+        <artifactId>fabric3-samples-spring-parent-pom</artifactId>
+        <version>1.6-SNAPSHOT</version>
     </parent>
     <groupId>org.codehaus.fabric3.samples</groupId>
     <artifactId>servers-spring-parent-pom</artifactId>
@@ -28,8 +28,8 @@
     <name>Fabric3 Spring Servers Parent POM</name>
     <description>Fabric3 Spring Servers Parent POM.</description>
 
-     <modules>
-        <module>vm</module>  
+    <modules>
+        <module>vm</module>
         <module>cluster</module>
     </modules>
 </project>
