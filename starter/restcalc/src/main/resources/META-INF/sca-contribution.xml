@@ -2,6 +2,4 @@
 <contribution xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
               xmlns:calc="urn:fabric3.org:samples">
     <deployable composite="calc:RESTSpringCalculatorComposite"/>
-    <import.java package="javax.ws.rs" version="1.1.1"/>
-    <import.java package="javax.ws.rs.core" version="1.1.1"/>
 </contribution>
