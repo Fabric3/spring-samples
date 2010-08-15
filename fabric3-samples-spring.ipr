@@ -140,6 +140,7 @@
         <option value="$PROJECT_DIR$/starter/wscalc-client/pom.xml" />
         <option value="$PROJECT_DIR$/policy/counter/pom.xml" />
         <option value="$PROJECT_DIR$/policy/pom.xml" />
+        <option value="$PROJECT_DIR$/features/eventing/pom.xml" />
       </list>
     </option>
   </component>
@@ -157,6 +158,7 @@
       <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-services/bigbank-services.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-services/bigbank-services.iml" group="bigbank" />
       <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-spring-parent-pom.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-spring-parent-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/fabric3-samples-spring-apps-parent-pom.iml" filepath="$PROJECT_DIR$/apps/fabric3-samples-spring-apps-parent-pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/eventing/fabric3-samples-spring-eventing.iml" filepath="$PROJECT_DIR$/features/eventing/fabric3-samples-spring-eventing.iml" />
       <module fileurl="file://$PROJECT_DIR$/features/fabric3-samples-spring-features-parent-pom.iml" filepath="$PROJECT_DIR$/features/fabric3-samples-spring-features-parent-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/features/hibernate/fabric3-samples-spring-hibernate.iml" filepath="$PROJECT_DIR$/features/hibernate/fabric3-samples-spring-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/features/hibernate-client/fabric3-samples-spring-hibernate-client.iml" filepath="$PROJECT_DIR$/features/hibernate-client/fabric3-samples-spring-hibernate-client.iml" />

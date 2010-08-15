@@ -74,13 +74,13 @@
                             <artifactId>profile-rs</artifactId>
                             <version>${fabric3.version}</version>
                         </profile>
-                        <!-- HTTP and TCP binding support 
+                       <!-- Timer support -->
                         <profile>
                             <groupId>org.codehaus.fabric3</groupId>
-                            <artifactId>profile-net</artifactId>
-                            <version>${fabric3.version}</version> 
-                        </profile> -->
-                    </profiles>
+                            <artifactId>profile-timer</artifactId>
+                            <version>${fabric3.version}</version>
+                        </profile>-->
+                     </profiles>
                     <!-- overlay configuration -->
                     <configurationFiles>
                         <copy>

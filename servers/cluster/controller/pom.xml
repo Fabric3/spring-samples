@@ -62,7 +62,13 @@
                             <artifactId>profile-jms</artifactId>
                             <version>${fabric3.version}</version>
                         </profile>
-                    </profiles>
+                       <!-- Timer support -->
+                        <profile>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>profile-timer</artifactId>
+                            <version>${fabric3.version}</version>
+                        </profile>-->
+                     </profiles>
                     <!-- overlay configuration -->
                     <configurationFiles>
                         <copy>
