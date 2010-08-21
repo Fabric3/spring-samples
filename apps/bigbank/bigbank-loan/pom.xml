@@ -58,20 +58,6 @@
         </dependency>
 
         <dependency>
-            <groupId>org.codehaus.fabric3.samples</groupId>
-            <artifactId>bigbank-spring-api</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.codehaus.fabric3.samples</groupId>
-            <artifactId>bigbank-spring-services</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
             <version>3.0.2.RELEASE</version>

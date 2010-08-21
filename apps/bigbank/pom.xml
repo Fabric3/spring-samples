@@ -30,8 +30,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>bigbank-api</module>
-        <module>bigbank-services</module>
         <module>bigbank-loan</module>
         <module>bigbank-client</module>
     </modules>

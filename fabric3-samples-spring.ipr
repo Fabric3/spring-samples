@@ -147,6 +147,13 @@
   <component name="ProjectDetails">
     <option name="projectName" value="fabric3-samples" />
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="jim">
+      <words>
+        <w>balancer</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectKey">
     <option name="state" value="https://svn.codehaus.org/fabric3/samples-spring/trunk/fabric3-samples-spring.ipr" />
   </component>

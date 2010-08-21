@@ -4,5 +4,6 @@
       name="LoanPlan">
     <mappings>
         <mapping deployable="samples:SpringLoanComposite" zone="zone1"/>
+        <mapping deployable="samples:SpringServicesComposite" zone="zone2"/>
     </mappings>
 </plan>

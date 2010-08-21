@@ -2,45 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ea17854c-6366-4f6e-9371-41493aeabd65" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/NOTICE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/BuyChannel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/message/LoanStatus.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/message/LoanStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/plan.xml" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/plan.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/appraisal/AppraisalResult.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/appraisal/AppraisalResult.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric3-samples-spring.ipr" afterPath="$PROJECT_DIR$/fabric3-samples-spring.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers/cluster/zone1/pom.xml" afterPath="$PROJECT_DIR$/servers/cluster/zone1/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/SellOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/plan.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/credit/CreditScore.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/credit/CreditScore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/pricing/impl/RiskBasedPricingService.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/pricing/impl/RiskBasedPricingService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/rate/RateService.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/rate/RateService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabric3-samples-spring.iws" afterPath="$PROJECT_DIR$/fabric3-samples-spring.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/BuyTimer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/Reason.java" afterPath="$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/Reason.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/SellChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/buy.context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/buy.composite" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/loan/LoanApplicationNotFoundException.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/loan/LoanApplicationNotFoundException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/pricing" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/pricing" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/pom.xml" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/bigbank-loan.iml" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/bigbank-loan.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers/cluster/controller/pom.xml" afterPath="$PROJECT_DIR$/servers/cluster/controller/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/BuyOrder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers/vm/pom.xml" afterPath="$PROJECT_DIR$/servers/vm/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/TimerInterval.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/OrderComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/Message.java" afterPath="$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/fabric3-samples-spring-eventing.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/appraisal/impl" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/appraisal/impl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/risk/RiskReason.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/risk/RiskReason.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/credit/impl/CreditServiceImpl.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/credit/impl/CreditServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/message/Address.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/message/Address.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/risk/RiskAssessmentService.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/risk/RiskAssessmentService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/loan/LoanException.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/loan/LoanException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/message/LoanApplication.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/message/LoanApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/rate/RateResults.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/rate/RateResults.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/pricing/PricingOption.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/pricing/PricingOption.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers/cluster/zone2/pom.xml" afterPath="$PROJECT_DIR$/servers/cluster/zone2/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/SellTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/channels.composite" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/sell.composite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/HibernateClient.java" afterPath="$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/HibernateClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/sca-contribution.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/java/org" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/pom.xml" afterPath="$PROJECT_DIR$/features/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/MessageList.java" afterPath="$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/MessageList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/resources/META-INF/services.context.xml" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/services.context.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/message/LoanOption.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/message/LoanOption.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/risk/RiskRequest.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/risk/RiskRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/pricing/impl" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/pricing/impl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/credit/CreditService.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/credit/CreditService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/pricing/PricingService.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/pricing/PricingService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/appraisal/impl/AppraisalServiceImpl.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/appraisal/impl/AppraisalServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/pricing/PriceResponse.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/pricing/PriceResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/message/LoanRequest.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/message/LoanRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-client/src/main/java/org/fabric3/samples/bigbank/client/ws/LoanServiceClient.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-client/src/main/java/org/fabric3/samples/bigbank/client/ws/LoanServiceClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/message" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/message" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers/cluster/zone1/pom.xml" afterPath="$PROJECT_DIR$/servers/cluster/zone1/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers/cluster/zone2/src/main/config/systemConfig.xml" afterPath="$PROJECT_DIR$/servers/cluster/zone2/src/main/config/systemConfig.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/risk/impl" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/risk/impl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/loan/LoanService.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/loan/LoanService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/risk/RiskResponse.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/risk/RiskResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/rate/Rate.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/rate/Rate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/risk/impl/RiskAssessmentServiceImpl.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/risk/impl/RiskAssessmentServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/credit/impl/AuditServiceImpl.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/credit/impl/AuditServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/appraisal" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/appraisal" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/message/OptionSelection.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/message/OptionSelection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/credit" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/credit" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/credit/impl/AuditService.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/credit/impl/AuditService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/credit/impl" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/credit/impl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/appraisal/AppraisalRequest.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/appraisal/AppraisalRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api/loan" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api/loan" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/rate/impl" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/rate/impl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers/cluster/zone1/src/main/config/systemConfig.xml" afterPath="$PROJECT_DIR$/servers/cluster/zone1/src/main/config/systemConfig.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/appraisal/AppraisalSchedule.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/appraisal/AppraisalSchedule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bigbank/pom.xml" afterPath="$PROJECT_DIR$/apps/bigbank/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/risk" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/risk" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/pricing/PricingRequest.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/pricing/PricingRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/java/org/fabric3/samples/bigbank/api" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/api" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/rate/impl/RateServiceImpl.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/rate/impl/RateServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/resources/META-INF/services.composite" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/services.composite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/sca-contribution.xml" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/sca-contribution.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/appraisal/AppraisalService.java" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/appraisal/AppraisalService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/java/org/fabric3/samples/bigbank/services/rate" afterPath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/java/org/fabric3/samples/bigbank/services/rate" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="fabric3-samples.iws" />
@@ -141,13 +164,90 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OrderComponent.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OrderComponent.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/OrderComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.7301038">
+            <state line="37" column="13" selection-start="1381" selection-end="1381" vertical-scroll-proportion="-2.4583333">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/hibernate/src/main/java/org/fabric3/samples/hibernate/MessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="13" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message.context.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/hibernate/src/main/resources/META-INF/message.context.xml">
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="20" selection-start="700" selection-end="2433" vertical-scroll-proportion="-13.282609">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hibernate.composite" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/hibernate/src/main/resources/META-INF/hibernate.composite">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HibernateClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/HibernateClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="27" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoanServiceClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/bigbank/bigbank-client/src/main/java/org/fabric3/samples/bigbank/client/ws/LoanServiceClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="0" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servers/vm/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="1" selection-start="3053" selection-end="3368" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/servers/cluster/controller/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="1" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.67201424">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sca-contribution.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/sca-contribution.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,13 +266,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/BuyOrder.java" />
-        <option value="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/BuyTimer.java" />
-        <option value="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/SellChannel.java" />
-        <option value="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/SellOrder.java" />
-        <option value="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/SellTimer.java" />
-        <option value="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/TimerInterval.java" />
-        <option value="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/buy.composite" />
         <option value="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/channels.composite" />
         <option value="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/plan.xml" />
         <option value="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/sca-contribution.xml" />
@@ -182,6 +275,13 @@
         <option value="$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/MessageList.java" />
         <option value="$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/Reason.java" />
         <option value="$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/OrderComponent.java" />
+        <option value="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/plan.xml" />
+        <option value="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/sca-contribution.xml" />
+        <option value="$PROJECT_DIR$/apps/bigbank/bigbank-loan/pom.xml" />
+        <option value="$PROJECT_DIR$/apps/bigbank/bigbank-client/src/main/java/org/fabric3/samples/bigbank/client/ws/LoanServiceClient.java" />
+        <option value="$PROJECT_DIR$/servers/cluster/controller/pom.xml" />
+        <option value="$PROJECT_DIR$/servers/cluster/zone1/pom.xml" />
+        <option value="$PROJECT_DIR$/servers/cluster/zone2/pom.xml" />
       </list>
     </option>
   </component>
@@ -370,7 +470,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
+              <option name="myItemId" value="starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabric3-samples-spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,70 +499,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabric3-samples-spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trunk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabric3-samples-spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trunk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -481,11 +531,15 @@
       <recent name="$PROJECT_DIR$/features/eventing/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/features/hibernate/src/main/resources/META-INF" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.fabric3.samples.bigbank" />
       <recent name="org.fabric3.samples.rs.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Remote.Remote">
+  <component name="RunManager" selected="Application.HibernateClient">
     <configuration default="false" name="LoanServiceClient" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="emma">
         <pattern>
@@ -766,8 +820,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="280" y="54" width="1625" height="1014" extended-state="0" />
-    <editor active="true" />
+    <frame x="54" y="45" width="1625" height="1014" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -779,9 +833,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.66375124" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293147" sideWeight="0.66375124" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20241117" sideWeight="0.59347826" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4029188" sideWeight="0.6630435" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -832,120 +886,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/Reason.java">
+    <entry file="file://$PROJECT_DIR$/features/hibernate/src/main/java/org/fabric3/samples/hibernate/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.26262626">
-          <folding />
+        <state line="47" column="13" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/sell.composite">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.24803591">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/sca-contribution.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.24803591">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/plan.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.24803591">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/buy.context.xml">
+    <entry file="file://$PROJECT_DIR$/features/hibernate/src/main/resources/META-INF/message.context.xml">
       <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="18" selection-start="2228" selection-end="2228" vertical-scroll-proportion="0.61538464">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/buy.composite">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.24803591">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/TimerInterval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.3647587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/SellTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.40852973">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/SellOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="943" selection-end="943" vertical-scroll-proportion="0.3939394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/SellChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="897" selection-end="897" vertical-scroll-proportion="0.335578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/resources/META-INF/channels.composite">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="47" column="20" selection-start="700" selection-end="2433" vertical-scroll-proportion="-13.282609">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/hibernate/src/main/resources/META-INF/hibernate.composite">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="39" selection-end="699" vertical-scroll-proportion="0.24803591">
+        <state line="17" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/hibernate-client/src/main/java/org/fabric3/samples/hibernate/HibernateClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.26262626">
+        <state line="19" column="27" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/BuyTimer.java">
+    <entry file="file://$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/resources/META-INF/plan.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.5547866">
+        <state line="6" column="0" selection-start="162" selection-end="239" vertical-scroll-proportion="0.13903743">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/1.6_17/src.zip!/java/util/concurrent/Executors.java">
+    <entry file="file://$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/plan.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="43" selection-start="8647" selection-end="8647" vertical-scroll-proportion="0.35783365">
+        <state line="7" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.16221035">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/eventing/src/main/java/org/fabric3/samples/eventing/OrderComponent.java">
+    <entry file="file://$PROJECT_DIR$/apps/bigbank/bigbank-services/src/main/resources/META-INF/sca-contribution.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.7301038">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="4" column="0" selection-start="165" selection-end="227" vertical-scroll-proportion="0.05970149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/bigbank/bigbank-api/src/main/resources/META-INF/sca-contribution.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/bigbank/bigbank-loan/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.73134327">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/bigbank/bigbank-loan/src/main/resources/META-INF/sca-contribution.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/bigbank/bigbank-client/src/main/java/org/fabric3/samples/bigbank/client/ws/LoanServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/vm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="1" selection-start="3053" selection-end="3368" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/cluster/zone2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="1" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.738815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/cluster/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/cluster/zone1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="1" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.91172916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/cluster/controller/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="1" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.67201424">
+          <folding />
         </state>
       </provider>
     </entry>
