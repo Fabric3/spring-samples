@@ -159,10 +159,8 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-api/bigbank-api.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-api/bigbank-api.iml" group="bigbank" />
       <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-client/bigbank-client.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-client/bigbank-client.iml" group="bigbank" />
       <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-loan/bigbank-loan.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-loan/bigbank-loan.iml" group="bigbank" />
-      <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-services/bigbank-services.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-services/bigbank-services.iml" group="bigbank" />
       <module fileurl="file://$PROJECT_DIR$/apps/bigbank/bigbank-spring-parent-pom.iml" filepath="$PROJECT_DIR$/apps/bigbank/bigbank-spring-parent-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/fabric3-samples-spring-apps-parent-pom.iml" filepath="$PROJECT_DIR$/apps/fabric3-samples-spring-apps-parent-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/features/eventing/fabric3-samples-spring-eventing.iml" filepath="$PROJECT_DIR$/features/eventing/fabric3-samples-spring-eventing.iml" />

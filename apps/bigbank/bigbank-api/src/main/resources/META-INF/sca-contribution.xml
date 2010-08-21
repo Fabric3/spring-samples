@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<contribution xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912">
-    <export.java package="org.fabric3.samples.bigbank.api.loan" version="1.6"/>
-    <export.java package="org.fabric3.samples.bigbank.api.message" version="1.6"/>
-</contribution>
-
-
-
