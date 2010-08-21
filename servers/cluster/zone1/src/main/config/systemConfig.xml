@@ -3,6 +3,7 @@
         <http port="8181"/>
     </web.server>
     <runtime mode="participant" jmxPort="8000-9000"/>
+    <spring validating="false"/>
     <datasources>
         <datasource name="LoanApplicationDS"
                     driver="org.h2.Driver"

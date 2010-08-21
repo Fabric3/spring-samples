@@ -50,7 +50,13 @@
                             <artifactId>profile-spring</artifactId>
                             <version>${fabric3.version}</version>
                         </profile>
-                        <!-- Web Services support -->
+                        <!-- JAX-RS support -->
+                         <profile>
+                             <groupId>org.codehaus.fabric3</groupId>
+                             <artifactId>profile-rs</artifactId>
+                             <version>${fabric3.version}</version>
+                         </profile>
+                         <!-- Web Services support -->
                         <profile>
                             <groupId>org.codehaus.fabric3</groupId>
                             <artifactId>profile-ws</artifactId>
