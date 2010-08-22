@@ -213,17 +213,6 @@
         <root url="jar://$M2_REPO$/javax/xml/bind/jaxb-api-osgi/2.2-promoted-b50/jaxb-api-osgi-2.2-promoted-b50-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: javax.xml:webservices-api-osgi:2.0-b24">
-      <CLASSES>
-        <root url="jar://$M2_REPO$/javax/xml/webservices-api-osgi/2.0-b24/webservices-api-osgi-2.0-b24.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$M2_REPO$/javax/xml/webservices-api-osgi/2.0-b24/webservices-api-osgi-2.0-b24-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$M2_REPO$/javax/xml/webservices-api-osgi/2.0-b24/webservices-api-osgi-2.0-b24-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: junit:junit:3.8.2">
       <CLASSES>
         <root url="jar://$M2_REPO$/junit/junit/3.8.2/junit-3.8.2.jar!/" />
