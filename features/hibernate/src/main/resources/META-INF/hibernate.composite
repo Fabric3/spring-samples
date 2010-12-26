@@ -16,23 +16,22 @@
  under the License.
 -->
 <composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
-           xmlns:f3-binding="urn:org.fabric3:binding"
-           xmlns:f3-other="urn:fabric3.org:other"
+           xmlns:f3="urn:org.fabric3"
            name="HibernateComposite"
            targetNamespace="urn:fabric3.org:samples">
 
     <component name="MessageService">
         <implementation.spring location="META-INF/message.context.xml"/>
         <service name="MessageService">
-            <f3-binding:binding.rs uri="/messages"/>
+            <f3:binding.rs uri="/messages"/>
         </service>
     </component>
 
-    <f3-other:datasources>
+    <f3:datasources>
         <datasource name="MessageDS" driver="org.h2.Driver"  url="jdbc:h2:mem:MessageDS;DB_CLOSE_DELAY=-1">
             <minPoolSize>5</minPoolSize>
             <maxPoolSize>10</maxPoolSize>
         </datasource>
-    </f3-other:datasources>
+    </f3:datasources>
 
 </composite>

@@ -16,12 +16,12 @@
  under the License.
 -->
 <composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
-           xmlns:f3-impl="urn:fabric3.org:implementation"
+           xmlns:f3="urn:fabric3.org"
            name="BuyComposite"
            targetNamespace="urn:fabric3.org:samples">
 
     <component name="BuyTimer">
-        <f3-impl:implementation.timer class="org.fabric3.samples.eventing.BuyTimer" intervalClass="org.fabric3.samples.eventing.TimerInterval"/>
+        <f3:implementation.timer class="org.fabric3.samples.eventing.BuyTimer" intervalClass="org.fabric3.samples.eventing.TimerInterval"/>
         <producer name="buyChannel" target="BuyChannel"/>
     </component>
 
