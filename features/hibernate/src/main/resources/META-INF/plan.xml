@@ -15,7 +15,7 @@
  specific language governing permissions and limitations
  under the License.
 -->
-<plan xmlns="urn:fabric3.org:core"
+<plan xmlns="urn:fabric3.org"
       xmlns:ns="urn:fabric3.org:samples"
       name="HibernatePlan">
     <mappings>
