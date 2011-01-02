@@ -30,7 +30,6 @@ import org.fabric3.samples.ws.calculator.CalculatorServiceService;
 public class WsCalcClient {
 
     public static void main(String[] args) throws Exception {
-        // URL when the calculator is deployed to the single-VM runtime
         // URL url = new URL("http://localhost:8080/calculator?wsdl");
         // URL when calculator deployed in the cluster without a load-balancer
         URL url = new URL("http://localhost:8181/calculator?wsdl");
