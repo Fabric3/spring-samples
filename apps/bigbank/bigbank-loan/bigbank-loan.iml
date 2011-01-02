@@ -14,8 +14,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.xml.bind:jaxb-api-osgi:2.2-promoted-b50" level="project" />
     <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.fabric3.spec:sca-api:1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.fabric3:fabric3-api:1.6-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.fabric3.spec:sca-api:1.1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.fabric3:fabric3-api:1.7-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:3.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:3.0.2.RELEASE" level="project" />

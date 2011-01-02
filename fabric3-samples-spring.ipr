@@ -191,17 +191,6 @@
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">
-    <library name="Maven: org.codehaus.fabric3.spec:sca-api:1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/spec/sca-api/1.1/sca-api-1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/spec/sca-api/1.1/sca-api-1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/spec/sca-api/1.1/sca-api-1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: javax.xml.bind:jaxb-api-osgi:2.2-promoted-b50">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api-osgi/2.2-promoted-b50/jaxb-api-osgi-2.2-promoted-b50.jar!/" />
@@ -233,17 +222,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.codehaus.fabric3:fabric3-api:1.6-SNAPSHOT">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/fabric3-api/1.6-SNAPSHOT/fabric3-api-1.6-SNAPSHOT.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/fabric3-api/1.6-SNAPSHOT/fabric3-api-1.6-SNAPSHOT-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/fabric3-api/1.6-SNAPSHOT/fabric3-api-1.6-SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-tx:3.0.2.RELEASE">
@@ -508,6 +486,28 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-xc/1.5.5/jackson-xc-1.5.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.fabric3:fabric3-api:1.7-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/fabric3-api/1.7-SNAPSHOT/fabric3-api-1.7-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/fabric3-api/1.7-SNAPSHOT/fabric3-api-1.7-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/fabric3-api/1.7-SNAPSHOT/fabric3-api-1.7-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.fabric3.spec:sca-api:1.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/spec/sca-api/1.1.1/sca-api-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/spec/sca-api/1.1.1/sca-api-1.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/fabric3/spec/sca-api/1.1.1/sca-api-1.1.1-sources.jar!/" />
       </SOURCES>
     </library>
   </component>

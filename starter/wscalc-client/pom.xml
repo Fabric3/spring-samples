@@ -19,13 +19,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.codehaus.fabric3.samples</groupId>
-        <artifactId>fabric3-samples-spring-parent-pom</artifactId>
-        <version>1.6</version>
+        <artifactId>fabric3-samples-spring-starter-parent-pom</artifactId>
+        <version>1.7</version>
     </parent>
     <groupId>org.codehaus.fabric3.samples</groupId>
     <artifactId>fabric3-samples-spring-starter-wscalc-client</artifactId>
     <packaging>jar</packaging>
     <name>Fabric3 Spring Web Services Calculator Client</name>
     <description>JAX-WS Client for invoking the Spring Sample Web Services Calculator.</description>
-
 </project>

@@ -19,8 +19,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.codehaus.fabric3.samples</groupId>
-        <artifactId>fabric3-samples-features-parent-pom</artifactId>
-        <version>1.6</version>
+        <artifactId>fabric3-samples-spring-features-parent-pom</artifactId>
+        <version>1.7</version>
     </parent>
     <groupId>org.codehaus.fabric3.samples</groupId>
     <artifactId>fabric3-samples-spring-hibernate-client</artifactId>
