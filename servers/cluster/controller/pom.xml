@@ -86,7 +86,7 @@
                         <dependency>
                             <groupId>org.codehaus.fabric3</groupId>
                             <artifactId>fabric3-security-impl</artifactId>
-                            <version>1.7-SNAPSHOT</version>
+                            <version>1.7</version>
                         </dependency>
                     </removeExtensions>
                 </configuration>
