@@ -1,6 +1,6 @@
 <config>
     <security allow.http.authentication="true"/>
-    <runtime mode="participant" jmxPort="8181-8281"/>
+    <runtime mode="participant" port.range="8181-8281"/>
     <thread.pool size="100"/>
     <spring validating="false"/>
     <datasources>
