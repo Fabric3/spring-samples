@@ -1,4 +1,5 @@
 <config>
+    <security allow.http.authentication="true"/>
     <web.server>
         <http port="8181"/>
     </web.server>
@@ -10,19 +11,5 @@
             <minPoolSize>5</minPoolSize>
             <maxPoolSize>10</maxPoolSize>
         </datasource>
-        <!--<datasource name="SecurityDS"-->
-        <!--driver="org.h2.Driver"-->
-        <!--url="jdbc:h2:mem:security;DB_CLOSE_DELAY=-1" -->
-        <!--type="non_xa">-->
-        <!--</datasource>-->
     </datasources>
-    <!--<security>-->
-    <!--<spring.security>-->
-    <!--<authentication-manager>-->
-    <!--<authentication-provider>-->
-    <!--<jdbc-user-service data-source-ref="SecurityDS"/>-->
-    <!--</authentication-provider>-->
-    <!--</authentication-manager>-->
-    <!--</spring.security>-->
-    <!--</security>-->
 </config>

@@ -1,8 +1,9 @@
 <config>
-    <runtime mode="controller"/>
+    <security allow.http.authentication="true"/>
     <web.server>
         <http port="8180"/>
     </web.server>
+    <runtime mode="controller"/>
     <federation>
         <runtimeName>Controller</runtimeName>
     </federation>
@@ -11,19 +12,8 @@
                     driver="org.h2.Driver"
                     url="jdbc:h2:mem:loadapplication;DB_CLOSE_DELAY=-1"
                     type="non_xa">
+            <minPoolSize>5</minPoolSize>
+            <maxPoolSize>10</maxPoolSize>
         </datasource>
     </datasources>
-    <jms>
-        <connection.factories>
-            <connection.factory name="xaDefault" type="xa"/>
-            <connection.factory name="default" type="local"/>
-        </connection.factories>
-        <binding.sca factory="default" xa.factory="xaDefault"/>
-    </jms>
-
-    <!--
-   <driver>com.mysql.jdbc.Driver</driver>
-   <url>jdbc:mysql://localhost/bigbank</url>
-   <user>bigbank</user>
-   <password>bigbank</password> -->
 </config>

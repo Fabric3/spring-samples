@@ -1,8 +1,6 @@
 <config>
-    <web.server>
-        <http port="8182"/>
-    </web.server>
-    <runtime mode="participant" jmxPort="8000-9000"/>
+    <security allow.http.authentication="true"/>
+    <runtime mode="participant" port.range="8282-8382"/>
     <spring validating="false"/>
     <datasources>
         <datasource name="LoanApplicationDS"
@@ -13,32 +11,7 @@
             <maxPoolSize>10</maxPoolSize>
         </datasource>
     </datasources>
-    <!--
-   <driver>com.mysql.jdbc.Driver</driver>
-   <url>jdbc:mysql://localhost/bigbank</url>
-   <user>bigbank</user>
-   <password>bigbank</password> -->
-    <jms>
-        <connection.factories>
-            <connection.factory name="xaDefault" type="xa"/>
-            <connection.factory name="default" type="local"/>
-        </connection.factories>
-        <binding.sca factory="default" xa.factory="xaDefault"/>
-    </jms>
     <federation>
-        <transport>
-            <value>
-                <entry>
-                    <key>binding.net.http</key>
-                    <value>localhost:8181</value>
-                </entry>
-                <entry>
-                    <key>binding.net.tcp</key>
-                    <value>localhost:8383</value>
-                </entry>
-            </value>
-        </transport>
         <zoneName>zone2</zoneName>
-        <runtimeName>runtime2</runtimeName>
     </federation>
 </config>
