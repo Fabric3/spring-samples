@@ -1,4 +1,4 @@
-Fabric3 Samples
+Fabric3 Spring Samples
 
 I. Introduction
 
@@ -13,7 +13,7 @@ The samples are intended to demonstrate the capabilities of the Fabric3 runtime:
 II. Prerequisites
  
 * JDK 6.0 or later
-* The build system requires Maven 2.0.8 or later. It can be downloaded from http://maven.apache.org/download.html.
+* The build system requires Maven 2.2.1 or later. It can be downloaded from http://maven.apache.org/download.html.
 
 III. Installation
 
@@ -24,6 +24,10 @@ III. Installation
 * The samples also contain an automated build for assembling a single-VM runtime as well as a set of runtimes that form a multi-clustered domain. To automatically download and build the runtimes, execute the following command from the /servers directory:
 	
 	mvn clean install
+
+IV. Documentation
+
+Documentation can be found at http://docs.fabric3.org.
 
 IV. Reporting Issues
 
