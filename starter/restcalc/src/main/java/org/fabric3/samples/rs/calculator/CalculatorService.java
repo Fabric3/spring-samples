@@ -66,7 +66,7 @@ public class CalculatorService {
     @Path("/{formula}")
     public String calculate(@PathParam("formula") String formula) {
         formula = formula.replaceAll("\\s+", "");
-        String[] tokens = formula.split("[\\+\\-\\*\\\\]");
+        String[] tokens = formula.split("[\\+\\-\\*\\\\\\:]");
         if (tokens.length != 2) {
             throw new IllegalArgumentException("Invalid formula: " + formula);
         }
@@ -79,7 +79,7 @@ public class CalculatorService {
             result = subtractService.subtract(operand1, operand2);
         } else if (formula.indexOf("*") > 0) {
             result = multiplyService.multiply(operand1, operand2);
-        } else if (formula.indexOf("/") > 0) {
+        } else if (formula.indexOf(":") > 0) {
             result = divideService.divide(operand1, operand2);
         } else {
             throw new IllegalArgumentException("Invalid formula: " + formula);
