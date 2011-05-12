@@ -27,4 +27,23 @@
     <packaging>jar</packaging>
     <name>Fabric3 Spring Web Services Calculator Client</name>
     <description>JAX-WS Client for invoking the Spring Sample Web Services Calculator.</description>
+	<build>
+		<plugins>
+		  <plugin>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>exec-maven-plugin</artifactId>
+			<version>1.1</version>
+			<executions>
+			  <execution>
+				<goals>
+					<goal>java</goal>
+				</goals>
+				</execution>
+				</executions>
+				<configuration>
+				<mainClass>org.fabric3.samples.ws.client.WsCalcClient</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
