@@ -21,7 +21,7 @@
     <parent>
         <groupId>org.codehaus.fabric3.samples</groupId>
         <artifactId>bigbank-spring-parent-pom</artifactId>
-        <version>1.8</version>
+        <version>1.9</version>
     </parent>
     <groupId>org.codehaus.fabric3.samples</groupId>
     <artifactId>bigbank-spring-client</artifactId>
