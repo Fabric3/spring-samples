@@ -8,12 +8,10 @@ The samples are intended to demonstrate the capabilities of the Fabric3 runtime:
 
 * BigBank Loan Application - BigBank showcases advanced features of the Fabric3 runtime. It is intended to provide a complete, real-world application that demonstrates SCA and Fabric3 best-practices.
 
-* Policy Applications - Demonstrate how to create and apply custom policies in Fabric3.
-
 II. Prerequisites
  
 * JDK 6.0 or later
-* The build system requires Maven 2.2.1 or later. It can be downloaded from http://maven.apache.org/download.html.
+* The build system requires Maven 3.0.4 or later. It can be downloaded from http://maven.apache.org/download.html.
 
 III. Installation
 

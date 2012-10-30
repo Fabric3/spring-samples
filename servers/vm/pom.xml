@@ -20,7 +20,7 @@
     <parent>
         <groupId>org.codehaus.fabric3.samples</groupId>
         <artifactId>servers-spring-parent-pom</artifactId>
-        <version>1.9</version>
+        <version>1.9.6</version>
     </parent>
     <groupId>org.codehaus.fabric3.samples</groupId>
     <artifactId>servers-spring-vm</artifactId>
@@ -62,12 +62,6 @@
                             <artifactId>profile-web</artifactId>
                             <version>${fabric3.version}</version>
                         </profile>
-                        <!-- JMS support -->
-                        <profile>
-                            <groupId>org.codehaus.fabric3</groupId>
-                            <artifactId>profile-jms</artifactId>
-                            <version>${fabric3.version}</version>
-                        </profile>
                         <!-- JAX-RS support -->
                         <profile>
                             <groupId>org.codehaus.fabric3</groupId>
@@ -100,7 +94,7 @@
                         <dependency>
                             <groupId>org.codehaus.fabric3</groupId>
                             <artifactId>fabric3-security-impl</artifactId>
-                            <version>1.9</version>
+                            <version>${fabric3.version}</version>
                         </dependency>
                     </removeExtensions>
                 </configuration>

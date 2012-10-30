@@ -26,14 +26,14 @@
     </parent>
     <groupId>org.codehaus.fabric3.samples</groupId>
     <artifactId>fabric3-samples-spring-parent-pom</artifactId>
-    <version>1.9</version>
+    <version>1.9.6</version>
     <name>Fabric3 Spring Samples Parent POM</name>
     <description>Fabric3 Spring Samples Parent POM.</description>
     <packaging>pom</packaging>
 
     <properties>
-        <sca.api.version>1.1.1</sca.api.version>
-        <fabric3.version>1.9</fabric3.version>
+        <sca.api.version>1.1.3</sca.api.version>
+        <fabric3.version>1.9.6</fabric3.version>
         <jaxb.version>2.2-promoted-b50</jaxb.version>
         <web.services.api.version>2.0-b24</web.services.api.version>
         <servlet.api.version>2.5</servlet.api.version>
