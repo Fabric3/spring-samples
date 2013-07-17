@@ -21,7 +21,7 @@ import org.fabric3.samples.bigbank.services.rate.RateResults;
 import org.fabric3.samples.bigbank.services.rate.RateService;
 
 /**
- * @version $Rev$ $Date$
+ *
  */
 public class RateServiceImpl implements RateService {
 

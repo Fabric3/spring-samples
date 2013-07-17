@@ -21,7 +21,7 @@ package org.fabric3.samples.hibernate;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * @version $Rev$ $Date$
+ *
  */
 @XmlRootElement
 public class Reason {

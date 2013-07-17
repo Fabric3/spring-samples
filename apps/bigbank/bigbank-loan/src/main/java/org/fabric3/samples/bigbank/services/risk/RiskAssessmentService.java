@@ -18,8 +18,6 @@ package org.fabric3.samples.bigbank.services.risk;
 
 /**
  * Performs risk assessment against a loan application.
- *
- * @version $Rev$ $Date$
  */
 public interface RiskAssessmentService {
 

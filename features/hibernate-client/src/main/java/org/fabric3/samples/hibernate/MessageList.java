@@ -18,14 +18,14 @@
  */
 package org.fabric3.samples.hibernate;
 
-import java.util.Collections;
-import java.util.List;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.Collections;
+import java.util.List;
 
 /**
- * @version $Rev$ $Date$
+ *
  */
 @XmlRootElement
 public class MessageList {

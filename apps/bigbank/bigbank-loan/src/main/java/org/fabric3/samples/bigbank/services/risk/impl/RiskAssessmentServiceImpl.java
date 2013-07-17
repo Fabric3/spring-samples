@@ -26,8 +26,6 @@ import org.fabric3.samples.bigbank.services.risk.RiskResponse;
 
 /**
  * Implementation that performs risk assesment based on an applicant's credit score and loan amount.
- *
- * @version $Rev$ $Date$
  */
 public class RiskAssessmentServiceImpl implements RiskAssessmentService {
     private double ratioMinimum = .10;

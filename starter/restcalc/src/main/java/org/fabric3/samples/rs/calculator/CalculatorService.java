@@ -29,8 +29,6 @@ import org.oasisopen.sca.annotation.Reference;
 
 /**
  * Implementation of the CalculatorService.
- *
- * @version $Rev$ $Date$
  */
 @Path("/")
 @Consumes(MediaType.TEXT_PLAIN)
@@ -60,7 +58,6 @@ public class CalculatorService {
     public void setDivideService(DivideService divideService) {
         this.divideService = divideService;
     }
-
 
     @GET
     @Path("/{formula}")

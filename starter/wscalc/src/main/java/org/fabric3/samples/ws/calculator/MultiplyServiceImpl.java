@@ -20,8 +20,6 @@ package org.fabric3.samples.ws.calculator;
 
 /**
  * An implementation of the Multiply service.
- *
- * @version $Rev$ $Date$
  */
 public class MultiplyServiceImpl implements MultiplyService {
 

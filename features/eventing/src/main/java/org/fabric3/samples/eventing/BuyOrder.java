@@ -22,8 +22,6 @@ import java.io.Serializable;
 
 /**
  * A buy order.
- *
- * @version $Rev$ $Date$
  */
 public class BuyOrder implements Serializable {
     private static final long serialVersionUID = 1889173891755437967L;

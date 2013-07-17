@@ -26,8 +26,6 @@ import org.fabric3.samples.bigbank.services.rate.RateService;
 
 /**
  * Default implementation of the PricingService that uses a RateService to compile up-to-date loan options.
- *
- * @version $Rev$ $Date$
  */
 public class RiskBasedPricingService implements PricingService {
     private RateService rateService;

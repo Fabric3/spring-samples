@@ -18,9 +18,9 @@
  */
 package org.fabric3.samples.bigbank.client.ws;
 
+import javax.xml.namespace.QName;
 import java.net.URL;
 import java.util.UUID;
-import javax.xml.namespace.QName;
 
 import org.fabric3.samples.bigbank.client.ws.loan.Address;
 import org.fabric3.samples.bigbank.client.ws.loan.LoanApplication;
@@ -31,12 +31,10 @@ import org.fabric3.samples.bigbank.client.ws.loan.LoanServiceService;
 import org.fabric3.samples.bigbank.client.ws.loan.OptionSelection;
 
 /**
- * Demonstrates interacting with the BigBank Loan Service via web services. This client would typically be a part of a third-party system which
- * interacted with BigBank.
+ * Demonstrates interacting with the BigBank Loan Service via web services. This client would typically be a part of a third-party system which interacted with
+ * BigBank.
  * <p/>
  * Note the URL needs to be changed depending on the runtime the application is deployed to.
- *
- * @version $Rev$ $Date$
  */
 public class LoanServiceClient {
 

@@ -20,8 +20,6 @@ package org.fabric3.samples.rs.calculator;
 
 /**
  * Service that adds two operands.
- *
- * @version $Rev$ $Date$
  */
 public interface AddService {
 

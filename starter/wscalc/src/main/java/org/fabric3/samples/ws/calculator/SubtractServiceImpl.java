@@ -20,8 +20,6 @@ package org.fabric3.samples.ws.calculator;
 
 /**
  * An implementation of the subtract service.
- *
- * @version $Rev$ $Date$
  */
 public class SubtractServiceImpl implements SubtractService {
 

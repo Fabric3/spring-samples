@@ -18,14 +18,14 @@
  */
 package org.fabric3.samples.ws.client;
 
-import java.net.URL;
 import javax.xml.namespace.QName;
+import java.net.URL;
 
 import org.fabric3.samples.ws.calculator.CalculatorService;
 import org.fabric3.samples.ws.calculator.CalculatorServiceService;
 
 /**
- * @version $Rev$ $Date$
+ *
  */
 public class WsCalcClient {
 

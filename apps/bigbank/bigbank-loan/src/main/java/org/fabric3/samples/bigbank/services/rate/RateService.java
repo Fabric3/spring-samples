@@ -18,8 +18,6 @@ package org.fabric3.samples.bigbank.services.rate;
 
 /**
  * Service that returns rates for a given credit score.
- *
- * @version $Rev$ $Date$
  */
 public interface RateService {
 

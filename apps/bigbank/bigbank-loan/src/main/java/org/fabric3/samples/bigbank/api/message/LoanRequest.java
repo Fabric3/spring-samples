@@ -16,13 +16,11 @@
  */
 package org.fabric3.samples.bigbank.api.message;
 
-import java.io.Serializable;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.io.Serializable;
 
 /**
  * Encapsulates information for a new loan application.
- *
- * @version $Rev$ $Date$
  */
 @XmlRootElement
 public class LoanRequest implements Serializable {

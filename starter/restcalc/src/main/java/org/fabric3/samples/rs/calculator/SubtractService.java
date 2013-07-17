@@ -20,8 +20,6 @@ package org.fabric3.samples.rs.calculator;
 
 /**
  * Service that subtracts two operands
- *
- * @version $Rev$ $Date$
  */
 public interface SubtractService {
 

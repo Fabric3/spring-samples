@@ -22,8 +22,6 @@ import org.fabric3.samples.bigbank.api.message.OptionSelection;
 
 /**
  * Service responsible for processing a loan application.
- *
- * @version $Rev$ $Date$
  */
 public interface LoanService {
 

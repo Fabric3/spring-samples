@@ -31,8 +31,6 @@ import org.fabric3.api.annotation.Consumer;
 
 /**
  * Component that subscribes to the buy and sell channels to match sell and buy orders.
- *
- * @version $Rev$ $Date$
  */
 @Scope("COMPOSITE")
 public class OrderComponent {
@@ -53,7 +51,7 @@ public class OrderComponent {
     @Consumer("sellChannel")
     public void onSell(SellOrder sellOrder) {
         System.out.println("Received a sell order:" + sellOrder.getSymbol() + " @ " + sellOrder.getPrice() + " [" + sellOrder.getId() + "]");
-        for (Iterator<BuyOrder> iterator = buyOrders.iterator(); iterator.hasNext();) {
+        for (Iterator<BuyOrder> iterator = buyOrders.iterator(); iterator.hasNext(); ) {
             BuyOrder buyOrder = iterator.next();
             if (match(sellOrder, buyOrder)) {
                 System.out.println("Matched orders: " + buyOrder.getSymbol() + " @ " + sellOrder.getPrice() + " [" + sellOrder.getId() + "]");
@@ -82,7 +80,7 @@ public class OrderComponent {
 
         public void run() {
             long now = System.currentTimeMillis();
-            for (Iterator<BuyOrder> iterator = buyOrders.iterator(); iterator.hasNext();) {
+            for (Iterator<BuyOrder> iterator = buyOrders.iterator(); iterator.hasNext(); ) {
                 BuyOrder buyOrder = iterator.next();
                 if (buyOrder.getExpireTime() <= now) {
                     System.out.println("Expired buy order: " + buyOrder.getSymbol() + " @ " + buyOrder.getMaxPrice() + " [" + buyOrder.getId() + "]");

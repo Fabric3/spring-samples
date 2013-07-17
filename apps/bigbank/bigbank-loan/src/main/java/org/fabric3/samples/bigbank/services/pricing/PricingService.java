@@ -18,8 +18,6 @@ package org.fabric3.samples.bigbank.services.pricing;
 
 /**
  * Implementations compile a set of different loan options that fit the characteristics of an applicant and loan amount.
- *
- * @version $Rev$ $Date$
  */
 public interface PricingService {
 

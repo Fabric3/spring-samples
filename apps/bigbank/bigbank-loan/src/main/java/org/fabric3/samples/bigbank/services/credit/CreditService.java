@@ -18,8 +18,6 @@ package org.fabric3.samples.bigbank.services.credit;
 
 /**
  * Implementations perform a credit check for a loan applicant against a third-party credit bureau.
- *
- * @version $Rev$ $Date$
  */
 public interface CreditService {
 

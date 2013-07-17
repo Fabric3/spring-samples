@@ -20,10 +20,8 @@ import org.fabric3.samples.bigbank.services.credit.CreditScore;
 import org.fabric3.samples.bigbank.services.credit.CreditService;
 
 /**
- * Implementation of a CreditService that returns a credit score from the fictitious credit bureau. This implementation records all credit score
- * operations with the AuditService.
- *
- * @version $Rev$ $Date$
+ * Implementation of a CreditService that returns a credit score from the fictitious credit bureau. This implementation records all credit score operations with
+ * the AuditService.
  */
 public class CreditServiceImpl implements CreditService {
     private AuditService auditService;

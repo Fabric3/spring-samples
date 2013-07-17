@@ -19,7 +19,7 @@ package org.fabric3.samples.bigbank.api.message;
 import java.io.Serializable;
 
 /**
- * @version $Rev$ $Date$
+ *
  */
 public class LoanOption implements Serializable {
     private static final long serialVersionUID = -969237495348560552L;

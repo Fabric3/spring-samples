@@ -29,7 +29,7 @@ import com.sun.jersey.api.client.config.DefaultClientConfig;
 import org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider;
 
 /**
- * @version $Rev$ $Date$
+ *
  */
 public class HibernateClient {
     private static final String BASE_URI = "http://localhost:8181/messages";

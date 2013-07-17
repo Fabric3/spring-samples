@@ -8,7 +8,7 @@ import org.fabric3.samples.bigbank.loan.store.StoreException;
 import org.fabric3.samples.bigbank.loan.store.StoreService;
 
 /**
- * @version $Rev$ $Date$
+ *
  */
 public class TransientStoreService implements StoreService {
     private int counter = 1;

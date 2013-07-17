@@ -18,8 +18,6 @@
  */
 package org.fabric3.samples.hibernate;
 
-import java.net.URI;
-import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.ws.rs.Consumes;
@@ -32,14 +30,13 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.net.URI;
+import java.util.List;
 
 import org.springframework.transaction.annotation.Transactional;
 
-
 /**
  * Receives resource representations as JSON or XML and persists them as part of a global transaction using Hibernate.
- *
- * @version $Rev$ $Date$
  */
 @Path("/")
 @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})

@@ -23,8 +23,6 @@ import java.util.List;
 
 /**
  * A collection of current loan Rates.
- *
- * @version $Rev$ $Date$
  */
 public class RateResults implements Serializable {
     private static final long serialVersionUID = -8117214455334146925L;

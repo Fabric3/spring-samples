@@ -27,8 +27,6 @@ import org.fabric3.api.annotation.Producer;
 
 /**
  * A simple stateless timer component that issues sell orders.
- *
- * @version $Rev$ $Date$
  */
 @Scope("COMPOSITE")
 public class SellTimer implements Runnable {
@@ -52,5 +50,5 @@ public class SellTimer implements Runnable {
         BigDecimal bd = new BigDecimal(Double.toString(val));
         return bd.setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();
     }
-    
+
 }

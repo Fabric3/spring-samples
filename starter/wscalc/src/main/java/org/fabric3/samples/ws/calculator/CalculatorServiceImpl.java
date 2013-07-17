@@ -20,8 +20,6 @@ package org.fabric3.samples.ws.calculator;
 
 /**
  * Implementaton of the CalculatorService.
- *
- * @version $Rev$ $Date$
  */
 public class CalculatorServiceImpl implements CalculatorService {
     private AddService addService;
@@ -60,6 +58,5 @@ public class CalculatorServiceImpl implements CalculatorService {
     public double divide(double n1, double n2) {
         return divideService.divide(n1, n2);
     }
-
 
 }

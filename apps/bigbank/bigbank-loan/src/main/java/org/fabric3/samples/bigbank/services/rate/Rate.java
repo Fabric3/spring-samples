@@ -20,8 +20,6 @@ import java.io.Serializable;
 
 /**
  * Contains rate information for a given loan type.
- *
- * @version $Rev$ $Date$
  */
 public class Rate implements Serializable {
     private static final long serialVersionUID = -2068873111891197563L;
