@@ -1,6 +1,7 @@
 <config>
     <security allow.http.authentication="true"/>
     <runtime mode="participant" port.range="8181-8281"/>
+    <spring validating="false"/>
     <thread.pool size="100"/>
     <spring validating="false"/>
     <datasources>

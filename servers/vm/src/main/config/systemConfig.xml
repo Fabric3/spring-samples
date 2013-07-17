@@ -3,6 +3,7 @@
     <web.server>
         <http port="8181"/>
     </web.server>
+    <spring validating="false"/>
     <datasources>
         <datasource name="LoanApplicationDS"
                     driver="org.h2.Driver"

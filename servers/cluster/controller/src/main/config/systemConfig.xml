@@ -4,6 +4,7 @@
         <http port="8180"/>
     </web.server>
     <runtime mode="controller"/>
+    <spring validating="false"/>
     <federation>
         <runtimeName>Controller</runtimeName>
     </federation>
