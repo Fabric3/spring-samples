@@ -73,17 +73,21 @@
                             <groupId>org.codehaus.fabric3</groupId>
                             <artifactId>profile-timer</artifactId>
                             <version>${fabric3.version}</version>
-                        </profile>-->
+                        </profile>
+                        -->
                     </profiles>
+                    <datasources>
+                        <dependency>
+                            <groupId>com.h2database</groupId>
+                            <artifactId>h2</artifactId>
+                            <version>${h2.version}</version>
+                        </dependency>
+                    </datasources>
                     <!-- overlay configuration -->
                     <configurationFiles>
                         <copy>
                             <source>../../../config/security.xml</source>
                             <destination>runtimes/vm/config</destination>
-                        </copy>
-                        <copy>
-                            <source>../../../datasource/h2-1.0.71.jar</source>
-                            <destination>extensions/datasource</destination>
                         </copy>
                         <copy>
                             <source>config/systemConfig.xml</source>

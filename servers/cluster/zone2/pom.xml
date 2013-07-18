@@ -51,12 +51,12 @@
                             <version>${fabric3.version}</version>
                         </profile>
                         <!-- JAX-RS support -->
-                         <profile>
-                             <groupId>org.codehaus.fabric3</groupId>
-                             <artifactId>profile-rs</artifactId>
-                             <version>${fabric3.version}</version>
-                         </profile>
-                         <!-- Web Services support -->
+                        <profile>
+                            <groupId>org.codehaus.fabric3</groupId>
+                            <artifactId>profile-rs</artifactId>
+                            <version>${fabric3.version}</version>
+                        </profile>
+                        <!-- Web Services support -->
                         <profile>
                             <groupId>org.codehaus.fabric3</groupId>
                             <artifactId>profile-ws</artifactId>
@@ -80,22 +80,26 @@
                             <artifactId>profile-rs</artifactId>
                             <version>${fabric3.version}</version>
                         </profile>
-                       <!-- Timer support -->
+                        <!-- Timer support -->
                         <profile>
                             <groupId>org.codehaus.fabric3</groupId>
                             <artifactId>profile-timer</artifactId>
                             <version>${fabric3.version}</version>
-                        </profile>-->
-                     </profiles>
+                        </profile>
+                        -->
+                    </profiles>
+                    <datasources>
+                        <dependency>
+                            <groupId>com.h2database</groupId>
+                            <artifactId>h2</artifactId>
+                            <version>${h2.version}</version>
+                        </dependency>
+                    </datasources>
                     <!-- overlay configuration -->
                     <configurationFiles>
                         <copy>
                             <source>../../../../config/security.xml</source>
                             <destination>runtimes/participant/config</destination>
-                        </copy>
-                        <copy>
-                            <source>../../../../datasource/h2-1.0.71.jar</source>
-                            <destination>extensions/datasource</destination>
                         </copy>
                         <copy>
                             <source>config/systemConfig.xml</source>
