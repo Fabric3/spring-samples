@@ -18,16 +18,14 @@
  */
 package org.fabric3.samples.hibernate;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Collections;
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  *
  */
-@XmlRootElement
 public class MessageList {
     private List<Message> messages = Collections.emptyList();
 
@@ -38,8 +36,7 @@ public class MessageList {
         this.messages = messages;
     }
 
-    @XmlElementWrapper(name = "messages")
-    @XmlElement(name = "message")
+    @JsonProperty("messages")
     public List<Message> getMessages() {
         return messages;
     }

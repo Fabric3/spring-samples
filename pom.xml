@@ -39,6 +39,9 @@
         <servlet.api.version>2.5</servlet.api.version>
         <persistence.api.version>1.0.0.Final</persistence.api.version>
         <h2.version>1.3.172</h2.version>
+        <jax.rs.version>2.0</jax.rs.version>
+        <jackson.version>2.2.0</jackson.version>
+        <jersey.version>2.0</jersey.version>
     </properties>
 
     <modules>
