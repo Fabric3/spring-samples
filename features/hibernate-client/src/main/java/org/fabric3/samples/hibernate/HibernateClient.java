@@ -47,7 +47,7 @@ public class HibernateClient {
         System.out.println("Creating message");
         ClientResponse r = resource.type(MediaType.APPLICATION_JSON).post(ClientResponse.class, message);
         String location = r.getHeaders().get("location").get(0);
-        resource = client.resource(location);
+        resource = client.resource(BASE_URI + "/message/" + location);
         Message response = resource.type(MediaType.APPLICATION_JSON).get(Message.class);
 
         System.out.println("Response test was: " + response.getText());
