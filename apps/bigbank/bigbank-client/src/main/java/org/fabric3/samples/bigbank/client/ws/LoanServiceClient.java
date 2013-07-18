@@ -39,7 +39,7 @@ import org.fabric3.samples.bigbank.client.ws.loan.OptionSelection;
 public class LoanServiceClient {
 
     public static void main(String[] args) throws Exception {
-        // URL when loan service deployed in the cluster without a load-balancer on localhost
+        // Note you must change the port on the URL when loan service deployed in the cluster without a load-balancer on localhost
         // Zone 1 port: 8182
         URL url = new URL("http://localhost:8180/loanService?wsdl");
 
