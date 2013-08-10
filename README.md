@@ -29,13 +29,12 @@ Installation
 	mvn clean install
 
 Documentation
--------------
+----------------
 
-Documentation can be found at http://docs.fabric3.org.
+* The samples documentation can be found at https://fabric3.atlassian.net/wiki/display/FABRIC/Getting+Started.
 
 Reporting Issues
 ----------------
 
-* If you experience a problem or would like to suggest improvements, send a note to the user list (http://xircles.codehaus.org/projects/fabric3/lists) or file a JIRA issue (http://jira.codehaus.org/browse/FABRICTHREE).
-
-
+* If you experience a problem or would like to suggest improvements, send a note to the user list (http://xircles.codehaus.org/projects/fabric3/lists)
+  or file a JIRA issue.
