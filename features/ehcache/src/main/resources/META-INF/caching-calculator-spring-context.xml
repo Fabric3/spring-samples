@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean name="CachingCalculator"
+		class="org.fabric3.samples.rs.calculator.CachingCalculatorService">
+		<property name="addService" ref="AddService" />
+		<property name="subtractService" ref="SubtractService" />
+		<property name="multiplyService" ref="MultiplyService" />
+		<property name="divideService" ref="DivideService" />
+	</bean>
+
+	<bean name="AddService" class="org.fabric3.samples.rs.calculator.AddServiceImpl" />
+
+	<bean name="SubtractService" class="org.fabric3.samples.rs.calculator.SubtractServiceImpl" />
+
+	<bean name="MultiplyService" class="org.fabric3.samples.rs.calculator.MultiplyServiceImpl" />
+
+	<bean name="DivideService" class="org.fabric3.samples.rs.calculator.DivideServiceImpl" />
+
+	<cache:annotation-driven cache-manager="calculatorCacheManager" />
+	<bean id="calculatorCacheManager" class="org.springframework.cache.ehcache.EhCacheCacheManager"
+		p:cache-manager-ref="calculatorEhcache" />
+	<bean id="calculatorEhcache"
+		class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"
+		p:config-location="classpath:META-INF/calculator-ehcache.xml"
+		p:shared="false" p:cacheManagerName="calculator" />
+
+</beans>

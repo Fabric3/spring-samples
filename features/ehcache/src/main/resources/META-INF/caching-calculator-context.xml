@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+	xsi:schemaLocation="http://docs.oasis-open.org/ns/opencsa/sca/200912 http://docs.oasis-open.org/opencsa/sca-assembly/sca-1.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<sca:service name="CachingCalculatorService" target="CachingCalculator" />
+
+	<import resource="classpath:META-INF/caching-calculator-spring-context.xml" />
+
+</beans>
