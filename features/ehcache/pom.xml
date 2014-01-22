@@ -61,6 +61,7 @@
 			<groupId>org.hamcrest</groupId>
 			<artifactId>hamcrest-all</artifactId>
 			<version>${hamcrest.version}</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -81,4 +82,63 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-failsafe-plugin</artifactId>
+					<configuration>
+						<skipTests>true</skipTests>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.fabric3</groupId>
+				<artifactId>fabric3-itest-plugin</artifactId>
+				<version>${fabric3.version}</version>
+				<configuration>
+					<runtimeVersion>${fabric3.version}</runtimeVersion>
+					<profiles>
+						<profile>
+							<groupId>org.codehaus.fabric3</groupId>
+							<artifactId>profile-rs</artifactId>
+							<version>${fabric3.version}</version>
+						</profile>
+						<profile>
+							<groupId>org.codehaus.fabric3</groupId>
+							<artifactId>profile-spring</artifactId>
+							<version>${fabric3.version}</version>
+						</profile>
+					</profiles>
+					<extensions>
+						<extension>
+							<groupId>org.codehaus.fabric3</groupId>
+							<artifactId>fabric3-databinding-json</artifactId>
+							<version>${fabric3.version}</version>
+						</extension>
+						<extension>
+							<groupId>org.codehaus.fabric3</groupId>
+							<artifactId>fabric3-java</artifactId>
+							<version>${fabric3.version}</version>
+						</extension>
+						<extension>
+							<groupId>org.codehaus.fabric3</groupId>
+							<artifactId>fabric3-binding-rs-jersey</artifactId>
+							<version>${fabric3.version}</version>
+						</extension>
+					</extensions>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>test</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 </project>
