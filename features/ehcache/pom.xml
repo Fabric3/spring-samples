@@ -101,6 +101,17 @@
 				<version>${fabric3.version}</version>
 				<configuration>
 					<runtimeVersion>${fabric3.version}</runtimeVersion>
+					<systemConfig>
+                        <![CDATA[
+                        <config xmlns="urn:fabric3.org">
+                            <web.server>
+                                <http port="8900"/>
+                            </web.server>
+                            <thread.pool size="100"/>
+                            <spring validating="false"/>
+                        </config>
+                        ]]>
+					</systemConfig>
 					<profiles>
 						<profile>
 							<groupId>org.codehaus.fabric3</groupId>
@@ -114,6 +125,11 @@
 						</profile>
 					</profiles>
 					<extensions>
+						<dependency>
+							<groupId>org.codehaus.fabric3</groupId>
+							<artifactId>fabric3-jetty</artifactId>
+							<version>${fabric3.version}</version>
+						</dependency>
 						<extension>
 							<groupId>org.codehaus.fabric3</groupId>
 							<artifactId>fabric3-databinding-json</artifactId>
@@ -121,12 +137,7 @@
 						</extension>
 						<extension>
 							<groupId>org.codehaus.fabric3</groupId>
-							<artifactId>fabric3-java</artifactId>
-							<version>${fabric3.version}</version>
-						</extension>
-						<extension>
-							<groupId>org.codehaus.fabric3</groupId>
-							<artifactId>fabric3-binding-rs-jersey</artifactId>
+							<artifactId>fabric3-cache-ehcache</artifactId>
 							<version>${fabric3.version}</version>
 						</extension>
 					</extensions>

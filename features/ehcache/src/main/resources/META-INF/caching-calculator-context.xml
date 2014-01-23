@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:p="http://www.springframework.org/schema/p"
 	xsi:schemaLocation="http://docs.oasis-open.org/ns/opencsa/sca/200912 http://docs.oasis-open.org/opencsa/sca-assembly/sca-1.1.xsd
-		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd">
 
 	<sca:service name="CachingCalculatorService" target="CachingCalculator" />
 
-	<import resource="classpath:META-INF/caching-calculator-spring-context.xml" />
+	<bean name="CachingCalculator"
+		class="org.fabric3.samples.rs.calculator.CachingCalculatorService">
+		<property name="addService" ref="AddService" />
+		<property name="subtractService" ref="SubtractService" />
+		<property name="multiplyService" ref="MultiplyService" />
+		<property name="divideService" ref="DivideService" />
+	</bean>
+
+	<bean name="AddService" class="org.fabric3.samples.rs.calculator.AddServiceImpl" />
+
+	<bean name="SubtractService" class="org.fabric3.samples.rs.calculator.SubtractServiceImpl" />
+
+	<bean name="MultiplyService" class="org.fabric3.samples.rs.calculator.MultiplyServiceImpl" />
+
+	<bean name="DivideService" class="org.fabric3.samples.rs.calculator.DivideServiceImpl" />
+
+	<cache:annotation-driven cache-manager="calculatorCacheManager" />
+	<bean id="calculatorCacheManager" class="org.springframework.cache.ehcache.EhCacheCacheManager"
+		p:cache-manager-ref="calculatorEhcache" />
+	<bean id="calculatorEhcache"
+		class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"
+		p:config-location="classpath:META-INF/calculator-ehcache.xml"
+		p:shared="false" p:cacheManagerName="calculator" />
 
 </beans>

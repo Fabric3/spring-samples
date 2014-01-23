@@ -2,6 +2,7 @@
 <composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
            name="TestComposite"
            xmlns:f3="urn:fabric3.org"
+           xmlns:calc="urn:fabric3.org:samples"
            targetNamespace="urn:fabric3.org">
 
     <component name="CachingCalculatorServiceTest">
@@ -9,4 +10,6 @@
     	<reference name="cachingCalculatorService" target="RESTCachingCalculator" />
     </component>
 
+	<include name="calc:RESTSpringCachingCalculatorComposite" />
+	
 </composite>
