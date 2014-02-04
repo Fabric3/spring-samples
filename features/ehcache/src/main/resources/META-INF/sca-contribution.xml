@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <contribution xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
               xmlns:calc="urn:fabric3.org:samples">
+    <import.java package="net.sf.ehcache.*" version="2.8.0" />
     <deployable composite="calc:RESTSpringCachingCalculatorComposite"/>
 </contribution>
