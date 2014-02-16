@@ -25,7 +25,7 @@ public class CachingCalculatorServiceTestCase {
 	private Logger log = LoggerFactory.getLogger(getClass());
 	
 	@Autowired
-	private CachingCalculatorService cachingCalculatorService;
+	private CalculatorService cachingCalculatorService;
 	
 	@Test
 	public void testCachingCalculate() {

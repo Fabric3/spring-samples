@@ -10,7 +10,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<bean name="CachingCalculator"
-		class="org.fabric3.samples.rs.calculator.CachingCalculatorService">
+		class="org.fabric3.samples.rs.calculator.CachingCalculatorServiceImpl">
 		<property name="addService" ref="AddService" />
 		<property name="subtractService" ref="SubtractService" />
 		<property name="multiplyService" ref="MultiplyService" />

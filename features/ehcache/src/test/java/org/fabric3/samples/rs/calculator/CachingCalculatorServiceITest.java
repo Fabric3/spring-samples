@@ -22,7 +22,7 @@ public class CachingCalculatorServiceITest {
 	private Logger log = LoggerFactory.getLogger(getClass());
 
 	@Reference
-	private CachingCalculatorService cachingCalculatorService;
+	private CalculatorService cachingCalculatorService;
 	
 	@Test
 	public void testCachingCalculate() {

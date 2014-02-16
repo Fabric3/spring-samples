@@ -34,7 +34,7 @@ import org.springframework.cache.annotation.Cacheable;
 @Path("/")
 @Consumes(MediaType.TEXT_PLAIN)
 @Produces(MediaType.TEXT_PLAIN)
-public class CachingCalculatorService {
+public class CachingCalculatorServiceImpl implements CalculatorService {
 	
 	private AddService addService;
 	private SubtractService subtractService;
@@ -61,8 +61,9 @@ public class CachingCalculatorService {
 		this.divideService = divideService;
 	}
 
-	@GET
-	@Path("/{formula}")
+	/* (non-Javadoc)
+	 * @see org.fabric3.samples.rs.calculator.ICalculatorService#calculate(java.lang.String)
+	 */
 	@Cacheable(value = "results", key = "#formula")
 	public String calculate(@PathParam("formula") String formula) {
 		formula = formula.replaceAll("\\s+", "");
